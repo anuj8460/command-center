@@ -8,8 +8,8 @@
 html { font-size: 14px; -webkit-font-smoothing: antialiased; }
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  background: #F5F5F5;
-  color: #1A1A1A;
+  background: var(--bg-page, #F4F5F7);
+  color: var(--text-primary);
   line-height: 1.5;
   min-height: 100vh;
   overflow-x: hidden;
@@ -19,32 +19,32 @@ button { font-family: inherit; }
 
 /* ----- CSS VARIABLES ----- */
 :root {
-  --primary:          #E53D2F;
-  --primary-dark:     #C62828;
-  --primary-light:    #FDECEA;
-  --primary-border:   #FFCDD2;
-  --text-primary:     #1A1A1A;
-  --text-secondary:   #6B6B6B;
-  --text-muted:       #9E9E9E;
-  --border:           #E8E8E8;
-  --border-dark:      #D0D0D0;
-  --bg-page:          #F5F5F5;
-  --bg-card:          #FFFFFF;
-  --success-bg:       #E8F5E9;
-  --success-text:     #2E7D32;
-  --success-border:   #A5D6A7;
-  --warning-bg:       #FFF8E1;
-  --warning-text:     #E65100;
-  --warning-border:   #FFCC80;
-  --danger-bg:        #FFEBEE;
-  --danger-text:      #C62828;
-  --danger-border:    #EF9A9A;
-  --neutral-bg:       #F5F5F5;
-  --neutral-text:     #616161;
-  --neutral-border:   #BDBDBD;
-  --blue-bg:          #E3F2FD;
-  --blue-text:        #1565C0;
-  --blue-border:      #90CAF9;
+  --primary:          #1890ff;
+  --primary-dark:     #096dd9;
+  --primary-light:    #e6f7ff;
+  --primary-border:   #91d5ff;
+  --text-primary:     #1f1f1f;
+  --text-secondary:   #8c8c8c;
+  --text-muted:       #8c8c8c;
+  --border:           #f0f0f0;
+  --border-dark:      #d9d9d9;
+  --bg-page:          #F4F5F7;
+  --bg-card:          #ffffff;
+  --success-bg:       #CFFCE0;
+  --success-text:     #5C708A;
+  --success-border:   #CFFCE0;
+  --warning-bg:       #FFF5C7;
+  --warning-text:     #5C708A;
+  --warning-border:   #FFF5C7;
+  --danger-bg:        #FFE7E5;
+  --danger-text:      #5C708A;
+  --danger-border:    #FFE7E5;
+  --neutral-bg:       #E5F1FF;
+  --neutral-text:     #5C708A;
+  --neutral-border:   #E5F1FF;
+  --blue-bg:          #E5F1FF;
+  --blue-text:        #5C708A;
+  --blue-border:      #E5F1FF;
   --header-h:         0px;
   --tabbar-h:         44px;
   --bottom-h:         0px;
@@ -594,15 +594,11 @@ button { font-family: inherit; }
 }
 .badge-success  { background: var(--success-bg); color: var(--success-text); border-color: var(--success-border); }
 .badge-danger   { background: var(--danger-bg);  color: var(--danger-text);  border-color: var(--danger-border);  }
-.badge-warning  { background: var(--warning-bg); color: #A04000;             border-color: var(--warning-border); }
+.badge-warning  { background: var(--warning-bg); color: var(--warning-text); border-color: var(--warning-border); }
 .badge-neutral  { background: var(--neutral-bg); color: var(--neutral-text); border-color: var(--neutral-border); }
 .badge-primary  { background: var(--primary-light); color: var(--primary);   border-color: var(--primary-border); }
 .badge-blue     { background: var(--blue-bg);    color: var(--blue-text);    border-color: var(--blue-border);    }
-.badge-high {
-  background: #FFF3E0;
-  color: #BF360C;
-  border-color: #FFAB91;
-}
+.badge-high     { background: var(--warning-bg); color: var(--warning-text); border-color: var(--warning-border); }
 
 /* =============================================
    HEALTH DOT  (City health indicator)
