@@ -9,11 +9,18 @@ const state = {
   citySort: { col: 'orders', dir: 'desc' },
   cityPage: 1,
   cityPageSize: 10,
+  slaPage: 1,
+  slaPageSize: 10,
+  codPage: 1,
+  codPageSize: 10,
+  driverCodPage: 1,
+  driverCodPageSize: 10,
+  driverCompPage: 1,
+  driverCompPageSize: 10,
   autoRefresh: false,
   autoRefreshTimer: null,
   alertsDismissed: [],
   lastRefreshed: new Date(),
-  orderChart: null,
   activeKPI: null,
   activeState: 'All Orders',
   cityFilter: '',
@@ -28,42 +35,24 @@ const TABS = [
   {
     id: 'command-center',
     label: 'Command Center',
-    sections: ['healthSection','orderStatesSection','citySection','slaSection','exceptionsSection','outageSection','codSection'],
+    sections: ['healthSection','orderStatesSection','citySection','slaSection','codSection'],
     icon: `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="1" y="1" width="6" height="6" rx="1"/><rect x="9" y="1" width="6" height="6" rx="1"/><rect x="1" y="9" width="6" height="6" rx="1"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>`,
   },
   {
     id: 'sla-monitor',
-    label: 'SLA Monitor',
-    sections: ['slaSection'],
-    icon: `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 12a6 6 0 0 1 10 0" stroke-linecap="round"/><path d="M8 6v2M8 4v.5" stroke-linecap="round"/><circle cx="8" cy="4" r="0" fill="currentColor"/></svg>`,
-  },
-  {
-    id: 'carrier-health',
-    label: 'Carrier Health',
-    sections: ['outageSection'],
-    icon: `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="1" y="5" width="9" height="7" rx="1"/><path d="M10 7h3l2 3v2h-5V7z"/><circle cx="4" cy="13" r="1.5"/><circle cx="12" cy="13" r="1.5"/></svg>`,
+    label: 'SLA & Monitor',
+    sections: ['slaSection', 'driverComplianceSection'],
+    icon: `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 1v9M5 7l3 3 3-3M2 13h12" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
   },
   {
     id: 'cod-tracker',
     label: 'COD Tracker',
-    sections: ['codSection'],
+    sections: ['driverCodSection'],
     icon: `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="8" r="6"/><path d="M6 6h4M6 8.5h2.5M8.5 8.5v3" stroke-linecap="round"/></svg>`,
-  },
-  {
-    id: 'exceptions-log',
-    label: 'Exceptions Log',
-    sections: ['exceptionsSection'],
-    icon: `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 2L1.5 14h13L8 2z" stroke-linejoin="round"/><path d="M8 7v3" stroke-linecap="round"/><circle cx="8" cy="12" r="0.6" fill="currentColor"/></svg>`,
-  },
-  {
-    id: 'store-roster',
-    label: 'Roster',
-    sections: ['citySection'],
-    icon: `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="2" width="12" height="12" rx="1"/><path d="M2 6h12M6 6v8" stroke-linecap="round"/></svg>`,
   }
 ];
 
-const ALL_SECTIONS = ['healthSection','orderStatesSection','citySection','slaSection','exceptionsSection','outageSection','codSection'];
+const ALL_SECTIONS = ['healthSection','orderStatesSection','citySection','slaSection','codSection','driverCodSection','driverComplianceSection'];
 
 /* =============================================
    INIT
@@ -75,9 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
   renderOrderStates();
   renderCityTable();
   renderSLATable();
-  renderExceptionsTable();
-  renderCarrierOutages();
   renderCODTable();
+  renderDriverCODTable();
+  renderDriverComplianceTable();
   updateLastRefreshed();
   setupFilters();
   setupTableSorts();
@@ -137,41 +126,7 @@ function switchTab(id) {
    ============================================= */
 function renderAlertBanners() {
   const container = document.getElementById('alertBanners');
-  const h = APP_DATA.health;
-  let html = '';
-
-  if (!state.alertsDismissed.includes('outage')) {
-    html += `
-      <div class="alert-banner danger" id="alert-outage">
-        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" flex-shrink="0">
-          <path d="M8 2L1.5 14h13L8 2z" stroke="#C62828" stroke-width="1.4" stroke-linejoin="round"/>
-          <path d="M8 7v3" stroke="#C62828" stroke-width="1.4" stroke-linecap="round"/>
-          <circle cx="8" cy="12" r="0.7" fill="#C62828"/>
-        </svg>
-        <span>
-          <strong>CARRIER ALERT:</strong> Bluedart (Mumbai Metro) and DTDC (Delhi NCR) outages are <strong>Active</strong>
-          &mdash; 412 orders affected. Delhivery (Hyderabad) resolved at 03:45 PM. Rerouting in progress.
-        </span>
-        <button class="alert-close" onclick="dismissAlert('outage')" aria-label="Dismiss">&#x2715;</button>
-      </div>`;
-  }
-
-  if (!state.alertsDismissed.includes('exceptions')) {
-    html += `
-      <div class="alert-banner warning" id="alert-exceptions">
-        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" flex-shrink="0">
-          <circle cx="8" cy="8" r="6" stroke="#A04000" stroke-width="1.4"/>
-          <path d="M8 5v4" stroke="#A04000" stroke-width="1.4" stroke-linecap="round"/>
-          <circle cx="8" cy="11" r="0.7" fill="#A04000"/>
-        </svg>
-        <span>
-          <strong>${h.criticalExceptions} Critical Exceptions</strong> require immediate attention — Carrier Outages (2), Store Offline (1), Vehicle Breakdown (1), Package Damage (1).
-        </span>
-        <button class="alert-close" onclick="dismissAlert('exceptions')" aria-label="Dismiss">&#x2715;</button>
-      </div>`;
-  }
-
-  container.innerHTML = html;
+  container.innerHTML = '';
 }
 
 function dismissAlert(id) {
@@ -227,7 +182,7 @@ function renderHealthKPIs() {
       id: 'kpi-cod',
       label: 'Pending COD',
       value: `\u20B94.82L`,
-      sub: `10 stores · \u20B94,82,350`,
+      sub: ``,
       type: 'is-warning',
       icon: `<svg class="kpi-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#E65100" stroke-width="1.3"><circle cx="9" cy="9" r="7"/><path d="M7 7h4M7 9.5h3M9 9.5v4" stroke-linecap="round"/></svg>`,
     },
@@ -239,22 +194,6 @@ function renderHealthKPIs() {
       type: 'is-danger',
       icon: `<svg class="kpi-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#C62828" stroke-width="1.3"><path d="M3 14a7 7 0 0 1 12 0" stroke-linecap="round"/><path d="M9 6v3.5" stroke-linecap="round"/><circle cx="9" cy="4.5" r="0.8" fill="#C62828"/></svg>`,
     },
-    {
-      id: 'kpi-exceptions',
-      label: 'Open Exceptions',
-      value: h.openExceptions,
-      sub: `${h.criticalExceptions} critical · ${h.openExceptions - h.criticalExceptions} others`,
-      type: 'is-danger',
-      icon: `<svg class="kpi-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#C62828" stroke-width="1.3"><path d="M9 2L1.5 16h15L9 2z" stroke-linejoin="round"/><path d="M9 8v4" stroke-linecap="round"/><circle cx="9" cy="14" r="0.8" fill="#C62828"/></svg>`,
-    },
-    {
-      id: 'kpi-outages',
-      label: 'Carrier Outages',
-      value: h.carrierOutages,
-      sub: `${h.activeOutages} active · 1 resolved`,
-      type: 'is-danger',
-      icon: `<svg class="kpi-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#C62828" stroke-width="1.3"><rect x="1" y="6" width="10" height="8" rx="1"/><path d="M11 8h3.5l2.5 4v3h-6V8z"/><circle cx="5" cy="15" r="2"/><circle cx="14" cy="15" r="2"/></svg>`,
-    },
   ];
 
   grid.innerHTML = cards.map(c => `
@@ -264,7 +203,7 @@ function renderHealthKPIs() {
         ${c.icon}
       </div>
       <div class="kpi-value">${c.value}</div>
-      <div class="kpi-sub">${c.sub}</div>
+      ${c.sub ? `<div class="kpi-sub">${c.sub}</div>` : ''}
     </div>
   `).join('');
 }
@@ -293,8 +232,6 @@ function renderOrderStates() {
       ${s.pct !== null ? `<div class="state-pct">${s.pct}%</div>` : ''}
     </div>
   `).join('');
-
-  buildOrderChart();
 }
 
 function selectState(el, idx) {
@@ -304,72 +241,7 @@ function selectState(el, idx) {
   state.activeState = s.label;
   const centerVal = document.getElementById('chartCenterVal');
   if (centerVal) centerVal.textContent = s.value.toLocaleString('en-IN');
-  buildOrderChart();
   applyFilters();
-}
-
-function buildOrderChart() {
-  const ctx = document.getElementById('orderStateChart');
-  if (!ctx) return;
-
-  if (state.orderChart) { state.orderChart.destroy(); state.orderChart = null; }
-
-  const states = APP_DATA.orderStates.slice(1); // skip 'All Orders'
-
-  const COLORS = [
-    '#90A4AE', // Created
-    '#9FA8DA', // Assigned
-    '#4DB6AC', // Picked Up
-    '#4FC3F7', // Out For Delivery
-    '#81C784', // Delivered
-    '#E53D2F', // Failed
-    '#FFB74D', // Returned
-    '#CFD8DC', // Cancelled
-  ];
-
-  const bgColors = states.map((s, i) => {
-    if (state.activeState === 'All Orders' || state.activeState === s.label) return COLORS[i];
-    return '#E8E8E8'; // dimmed out
-  });
-
-  state.orderChart = new Chart(ctx, {
-    type: 'doughnut',
-    data: {
-      labels: states.map(s => s.label),
-      datasets: [{
-        data: states.map(s => s.value),
-        backgroundColor: bgColors,
-        borderWidth: 2,
-        borderColor: '#FFFFFF',
-        hoverOffset: 4,
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          backgroundColor: '#FFFFFF',
-          titleColor: '#1A1A1A',
-          bodyColor: '#6B6B6B',
-          borderColor: '#E8E8E8',
-          borderWidth: 1,
-          padding: 10,
-          titleFont: { family: 'Inter', size: 12, weight: '600' },
-          bodyFont:  { family: 'Inter', size: 12 },
-          callbacks: {
-            label: (ctx) => {
-              const total = ctx.dataset.data.reduce((a, b) => a + b, 0);
-              const pct = ((ctx.raw / total) * 100).toFixed(1);
-              return ` ${ctx.label}: ${ctx.raw.toLocaleString('en-IN')} (${pct}%)`;
-            }
-          }
-        }
-      },
-      cutout: '62%',
-    }
-  });
 }
 
 /* =============================================
@@ -407,7 +279,6 @@ function renderCityTable() {
   if (state.activeKPI === 'kpi-riders') data = data.filter(r => r.riders > 100);
   if (state.activeKPI === 'kpi-stores') data = data.filter(r => r.stores > 5);
   if (state.activeKPI === 'kpi-sla') data = data.filter(r => r.slaRisk > 20);
-  if (state.activeKPI === 'kpi-exceptions') data = data.filter(r => r.exceptions > 0);
 
   // Sort
   const { col, dir } = state.citySort;
@@ -440,8 +311,7 @@ function renderCityTable() {
           </div>
         </td>
         <td><span class="${slaClass}">${r.slaRisk}</span></td>
-        <td>${r.exceptions}</td>
-        <td><span class="health-dot ${r.health}">${cap(r.health)}</span></td>
+        <td><span class="status-badge ${r.health}">${r.health}</span></td>
       </tr>
     `;
   }).join('');
@@ -459,7 +329,77 @@ function renderCityPagination(total) {
     html += `<button class="page-btn ${i === state.cityPage ? 'active' : ''}" onclick="setCityPage(${i})">${i}</button>`;
   }
   html += `<button class="page-btn" onclick="setCityPage(${state.cityPage + 1})" ${state.cityPage >= totalPages ? 'disabled' : ''}>&#8250;</button>`;
-  pg.innerHTML = html;
+  if (pg) pg.innerHTML = html;
+}
+
+/* =============================================
+   PAGINATION HELPERS
+   ============================================= */
+function renderPaginationHTML(containerId, totalItems, currentPage, pageSize, setPageFnName) {
+  const totalPages = Math.max(1, Math.ceil(totalItems / pageSize));
+  const pag = document.getElementById(containerId);
+  if (!pag) return;
+  
+  let html = `<button class="page-btn" onclick="${setPageFnName}(${currentPage - 1})" ${currentPage <= 1 ? 'disabled' : ''}>&#8249;</button>`;
+  
+  // Show up to 5 pages max to avoid breaking layout if there are too many
+  let startP = Math.max(1, currentPage - 2);
+  let endP = Math.min(totalPages, startP + 4);
+  if (endP - startP < 4) startP = Math.max(1, endP - 4);
+
+  for (let i = startP; i <= endP; i++) {
+    html += `<button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="${setPageFnName}(${i})">${i}</button>`;
+  }
+  html += `<button class="page-btn" onclick="${setPageFnName}(${currentPage + 1})" ${currentPage >= totalPages ? 'disabled' : ''}>&#8250;</button>`;
+  pag.innerHTML = html;
+}
+
+function setSlaPage(p) {
+  const max = Math.ceil(APP_DATA.slaRisk.length / state.slaPageSize);
+  if (p < 1 || p > max) return;
+  state.slaPage = p;
+  renderSLATable();
+}
+function setSlaPageSize(size) {
+  state.slaPageSize = parseInt(size);
+  state.slaPage = 1;
+  renderSLATable();
+}
+
+function setCodPage(p) {
+  const max = Math.ceil(APP_DATA.pendingCOD.length / state.codPageSize);
+  if (p < 1 || p > max) return;
+  state.codPage = p;
+  renderCODTable();
+}
+function setCodPageSize(size) {
+  state.codPageSize = parseInt(size);
+  state.codPage = 1;
+  renderCODTable();
+}
+
+function setDriverCodPage(p) {
+  const max = Math.ceil(APP_DATA.driverCOD.length / state.driverCodPageSize);
+  if (p < 1 || p > max) return;
+  state.driverCodPage = p;
+  renderDriverCODTable();
+}
+function setDriverCodPageSize(size) {
+  state.driverCodPageSize = parseInt(size);
+  state.driverCodPage = 1;
+  renderDriverCODTable();
+}
+
+function setDriverCompPage(p) {
+  const max = Math.ceil(APP_DATA.driverCompliance.length / state.driverCompPageSize);
+  if (p < 1 || p > max) return;
+  state.driverCompPage = p;
+  renderDriverComplianceTable();
+}
+function setDriverCompPageSize(size) {
+  state.driverCompPageSize = parseInt(size);
+  state.driverCompPage = 1;
+  renderDriverComplianceTable();
 }
 
 function setCityPage(p) {
@@ -523,8 +463,12 @@ function renderSLATable() {
     data = data.filter(r => r.risk.toLowerCase() === (rf === 'critical' || rf === 'warning' ? (rf === 'warning' ? 'medium' : 'critical') : r.risk.toLowerCase()));
   }
 
+  const total = data.length;
+  const start = (state.slaPage - 1) * state.slaPageSize;
+  const page = data.slice(start, start + state.slaPageSize);
+
   const tbody = document.getElementById('slaTableBody');
-  tbody.innerHTML = data.map(r => `
+  tbody.innerHTML = page.map(r => `
     <tr>
       <td><span class="table-link">${r.orderId}</span></td>
       <td>${r.store}</td>
@@ -537,63 +481,11 @@ function renderSLATable() {
       <td><span class="badge ${riskClass(r.risk)}">${r.risk}</span></td>
     </tr>
   `).join('');
+
+  renderPaginationHTML('slaPagination', total, state.slaPage, state.slaPageSize, 'setSlaPage');
 }
 
-/* =============================================
-   EXCEPTIONS TABLE
-   ============================================= */
-function renderExceptionsTable() {
-  let data = [...APP_DATA.exceptions];
-  
-  if (state.cityFilter) data = data.filter(r => r.city === state.cityFilter);
-  if (state.healthFilter) {
-    const hf = state.healthFilter.toLowerCase();
-    data = data.filter(r => r.severity.toLowerCase() === hf || (hf === 'warning' && (r.severity === 'High' || r.severity === 'Medium')));
-  }
-  if (state.activeKPI === 'kpi-exceptions') data = data.filter(r => r.status !== 'Resolved');
 
-  const tbody = document.getElementById('excTableBody');
-  tbody.innerHTML = data.map(r => `
-    <tr>
-      <td><span class="table-link">${r.id}</span></td>
-      <td>${r.type}</td>
-      <td>${r.related}</td>
-      <td>${r.city}</td>
-      <td><span class="badge ${riskClass(r.severity)}">${r.severity}</span></td>
-      <td>${r.raised}</td>
-      <td><span class="badge ${statusClass(r.status)}">${r.status}</span></td>
-      <td>${r.assignee}</td>
-    </tr>
-  `).join('');
-}
-
-/* =============================================
-   CARRIER OUTAGES
-   ============================================= */
-function renderCarrierOutages() {
-  const grid = document.getElementById('outageGrid');
-  grid.innerHTML = APP_DATA.carrierOutages.map(o => {
-    const cls = o.status.toLowerCase();
-    const badgeCls = cls === 'active' ? 'badge-danger' : cls === 'monitoring' ? 'badge-warning' : 'badge-success';
-    const etaLabel = o.status === 'Resolved' ? 'Resolved At' : 'Est. Recovery';
-    return `
-      <div class="outage-card ${cls}">
-        <div class="outage-header">
-          <div class="outage-carrier">${o.carrier}</div>
-          <span class="badge ${badgeCls}">${o.status}</span>
-        </div>
-        <div class="outage-region">${o.region}</div>
-        <div class="outage-count">${o.affectedOrders.toLocaleString('en-IN')}</div>
-        <div class="outage-count-lbl">Orders Affected</div>
-        <div class="outage-meta"><strong>Outage Since:</strong> ${o.since}</div>
-        <div class="outage-meta"><strong>${etaLabel}:</strong> ${o.eta}</div>
-        <div class="outage-cities">
-          ${o.cities.map(c => `<span class="outage-city-chip">${c}</span>`).join('')}
-        </div>
-      </div>
-    `;
-  }).join('');
-}
 
 /* =============================================
    PENDING COD TABLE
@@ -603,8 +495,12 @@ function renderCODTable() {
   if (state.cityFilter) data = data.filter(r => r.city === state.cityFilter);
   if (state.activeKPI === 'kpi-cod') data = data.filter(r => r.status === 'Overdue');
 
+  const total = data.length;
+  const start = (state.codPage - 1) * state.codPageSize;
+  const page = data.slice(start, start + state.codPageSize);
+
   const tbody = document.getElementById('codTableBody');
-  tbody.innerHTML = data.map(r => `
+  tbody.innerHTML = page.map(r => `
     <tr>
       <td><span class="table-link">${r.store}</span></td>
       <td>${r.city}</td>
@@ -615,6 +511,62 @@ function renderCODTable() {
       <td><span class="badge ${statusClass(r.status)}">${r.status}</span></td>
     </tr>
   `).join('');
+
+  renderPaginationHTML('codPagination', total, state.codPage, state.codPageSize, 'setCodPage');
+}
+
+/* =============================================
+   DRIVER COD TABLE
+   ============================================= */
+function renderDriverCODTable() {
+  let data = [...APP_DATA.driverCOD];
+  if (state.cityFilter) data = data.filter(r => r.city === state.cityFilter);
+  // Re-use active KPI if it makes sense, or skip
+
+  const total = data.length;
+  const start = (state.driverCodPage - 1) * state.driverCodPageSize;
+  const page = data.slice(start, start + state.driverCodPageSize);
+
+  const tbody = document.getElementById('driverCodTableBody');
+  tbody.innerHTML = page.map(r => `
+    <tr>
+      <td><span class="table-link">${r.driverId}</span></td>
+      <td>${r.store}</td>
+      <td>${r.city}</td>
+      <td class="fw-700">\u20B9${r.cashInHand.toLocaleString('en-IN')}</td>
+      <td>${r.lastCollected}</td>
+      <td><span class="badge ${statusClass(r.status)}">${r.status}</span></td>
+    </tr>
+  `).join('');
+
+  renderPaginationHTML('driverCodPagination', total, state.driverCodPage, state.driverCodPageSize, 'setDriverCodPage');
+}
+
+/* =============================================
+   DRIVER COMPLIANCE TABLE
+   ============================================= */
+function renderDriverComplianceTable() {
+  let data = [...APP_DATA.driverCompliance];
+  if (state.cityFilter) data = data.filter(r => r.city === state.cityFilter);
+
+  const total = data.length;
+  const start = (state.driverCompPage - 1) * state.driverCompPageSize;
+  const page = data.slice(start, start + state.driverCompPageSize);
+
+  const tbody = document.getElementById('driverComplianceTableBody');
+  tbody.innerHTML = page.map(r => `
+    <tr>
+      <td><span class="table-link">${r.driverId}</span></td>
+      <td>${r.store}</td>
+      <td>${r.city}</td>
+      <td><span class="badge ${r.partialCod > 0 ? 'badge-warning' : 'badge-success'}">${r.partialCod}</span></td>
+      <td><span class="badge ${r.rejectedOrders > 0 ? 'badge-danger' : 'badge-success'}">${r.rejectedOrders}</span></td>
+      <td><span class="badge ${r.locationMismatch > 0 ? 'badge-warning' : 'badge-success'}">${r.locationMismatch}</span></td>
+      <td><span class="badge ${r.podNonCompliant > 0 ? 'badge-danger' : 'badge-success'}">${r.podNonCompliant}</span></td>
+    </tr>
+  `).join('');
+
+  renderPaginationHTML('driverCompliancePagination', total, state.driverCompPage, state.driverCompPageSize, 'setDriverCompPage');
 }
 
 /* =============================================
@@ -661,8 +613,9 @@ function applyFilters() {
   state.cityPage = 1;
   renderCityTable();
   renderSLATable();
-  renderExceptionsTable();
   renderCODTable();
+  renderDriverCODTable();
+  renderDriverComplianceTable();
   if (state.cityView === 'store') renderStoreTable();
 }
 

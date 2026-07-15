@@ -59,11 +59,11 @@
 
       <select class="filter-select" id="carrierFilter" title="Filter by carrier">
         <option value="">All Carriers</option>
-        <option>Bluedart</option>
-        <option>DTDC</option>
+        <option>Shadowfax</option>
         <option>Delhivery</option>
-        <option>Ekart</option>
-        <option>Xpressbees</option>
+        <option>Borzo</option>
+        <option>Rapido</option>
+        <option>Ownfleet</option>
       </select>
 
       <select class="filter-select" id="statusFilter" title="Filter by health status">
@@ -131,13 +131,6 @@
     </div>
     <div class="order-states-layout">
       <div class="order-states-grid" id="orderStatesGrid"></div>
-      <div class="order-states-chart-wrap">
-        <canvas id="orderStateChart"></canvas>
-        <div class="chart-center">
-          <div class="chart-center-val" id="chartCenterVal">18,542</div>
-          <div class="chart-center-lbl">Total</div>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -176,7 +169,7 @@
               <th class="sortable" data-sort="failed" data-table="city">Failed</th>
               <th class="sortable" data-sort="otd" data-table="city">OTD %</th>
               <th class="sortable" data-sort="slaRisk" data-table="city">SLA Risk</th>
-              <th class="sortable" data-sort="exceptions" data-table="city">Exceptions</th>
+
               <th>Health</th>
             </tr>
           </thead>
@@ -274,7 +267,7 @@
     </div>
     <div class="table-footer">
       <div class="page-size-wrap">
-        <select class="page-size-select"><option>10</option><option>25</option><option>50</option></select>
+        <select class="page-size-select" id="slaPageSize" onchange="setSlaPageSize(this.value)"><option>10</option><option>25</option><option>50</option></select>
         <span>/ Page</span>
       </div>
       <div class="pagination" id="slaPagination">
@@ -290,13 +283,12 @@
   </div>
 
   <!-- ======================================================
-       SECTION 5 — OPEN EXCEPTIONS
+       SECTION 9 — DRIVER COMPLIANCE (For SLA & Monitor Tab)
        ====================================================== -->
-  <div class="section-card" id="exceptionsSection">
+  <div class="section-card" id="driverComplianceSection" style="display:none;">
     <div class="section-header">
-      <span class="section-title">Open Exceptions</span>
+      <span class="section-title">Driver Compliance & Audit</span>
       <div class="section-right">
-        <span class="badge badge-danger" id="excBadge">47 open &nbsp;·&nbsp; 12 critical</span>
         <button class="btn-table-action">
           <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
             <path d="M8 1v9M5 7l3 3 3-3M2 13h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -306,50 +298,34 @@
       </div>
     </div>
     <div class="table-scroll-wrap">
-      <table class="data-table" id="excTable" role="grid">
+      <table class="data-table" id="driverComplianceTable" role="grid">
         <thead>
           <tr>
-            <th>Exception ID</th>
-            <th>Type</th>
-            <th>Related To</th>
+            <th>Driver ID</th>
+            <th>Store</th>
             <th>City</th>
-            <th>Severity</th>
-            <th>Raised At</th>
-            <th>Status</th>
-            <th>Assignee</th>
+            <th>Partial COD Deposited</th>
+            <th>Rejected Orders</th>
+            <th>Location Mismatch</th>
+            <th>POD Non-Compliant</th>
           </tr>
         </thead>
-        <tbody id="excTableBody"></tbody>
+        <tbody id="driverComplianceTableBody"></tbody>
       </table>
     </div>
     <div class="table-footer">
       <div class="page-size-wrap">
-        <select class="page-size-select"><option>10</option><option>25</option></select>
+        <select class="page-size-select" id="driverCompPageSize" onchange="setDriverCompPageSize(this.value)"><option>10</option><option>25</option></select>
         <span>/ Page</span>
       </div>
-      <div class="pagination" id="excPagination">
-        <button class="page-btn" disabled>&#8249;</button>
+      <div class="pagination" id="driverCompliancePagination">
         <button class="page-btn active">1</button>
-        <button class="page-btn">2</button>
-        <button class="page-btn">3</button>
-        <button class="page-btn">4</button>
-        <button class="page-btn">5</button>
-        <button class="page-btn">&#8250;</button>
       </div>
       <button class="btn-table-action" onclick="refreshData()">Refresh</button>
     </div>
   </div>
 
-  <!-- ======================================================
-       SECTION 6 — CARRIER OUTAGE STATUS
-       ====================================================== -->
-  <div class="section-card" id="outageSection">
-    <div class="section-header">
-      <span class="section-title">Carrier Outage Status</span>
-      <span class="section-meta">3 carriers monitored &nbsp;·&nbsp; 2 active outages</span>
-    </div>
-    <div class="outage-grid" id="outageGrid"></div>
-  </div>
+
 
   <!-- ======================================================
        SECTION 7 — PENDING COD
@@ -385,7 +361,7 @@
     </div>
     <div class="table-footer">
       <div class="page-size-wrap">
-        <select class="page-size-select"><option>10</option><option>25</option></select>
+        <select class="page-size-select" id="codPageSize" onchange="setCodPageSize(this.value)"><option>10</option><option>25</option></select>
         <span>/ Page</span>
       </div>
       <div class="pagination" id="codPagination">
@@ -394,6 +370,49 @@
         <button class="page-btn">2</button>
         <button class="page-btn">3</button>
         <button class="page-btn">&#8250;</button>
+      </div>
+      <button class="btn-table-action" onclick="refreshData()">Refresh</button>
+    </div>
+  </div>
+  </div>
+
+  <!-- ======================================================
+       SECTION 8 — DRIVER COD (For COD Tracker Tab)
+       ====================================================== -->
+  <div class="section-card" id="driverCodSection" style="display:none;">
+    <div class="section-header">
+      <span class="section-title">Driver-wise Pending COD</span>
+      <div class="section-right">
+        <button class="btn-table-action">
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
+            <path d="M8 1v9M5 7l3 3 3-3M2 13h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Download
+        </button>
+      </div>
+    </div>
+    <div class="table-scroll-wrap">
+      <table class="data-table" id="driverCodTable" role="grid">
+        <thead>
+          <tr>
+            <th>Driver ID</th>
+            <th>Store</th>
+            <th>City</th>
+            <th>Cash In Hand</th>
+            <th>Last Collected</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="driverCodTableBody"></tbody>
+      </table>
+    </div>
+    <div class="table-footer">
+      <div class="page-size-wrap">
+        <select class="page-size-select" id="driverCodPageSize" onchange="setDriverCodPageSize(this.value)"><option>10</option><option>25</option></select>
+        <span>/ Page</span>
+      </div>
+      <div class="pagination" id="driverCodPagination">
+        <button class="page-btn active">1</button>
       </div>
       <button class="btn-table-action" onclick="refreshData()">Refresh</button>
     </div>
