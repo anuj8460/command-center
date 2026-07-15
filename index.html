@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Command Center | FarEye OPS</title>
+  <meta name="description" content="FarEye Central Command Center – Unified operational visibility across stores, cities, riders, orders, SLA risk, exceptions, carrier health and pending COD.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Header removed per request -->
+
+<!-- ============================================================
+     TAB BAR (rendered by JS)
+     ============================================================ -->
+<nav class="tab-bar" id="tabBar" role="tablist"></nav>
+
+<!-- ============================================================
+     MAIN CONTENT
+     ============================================================ -->
+<main class="main-content" id="mainContent">
+
+  <!-- FILTER ROW -->
+  <div class="filter-bar">
+    <div class="filter-row">
+      <div class="filter-date" id="dateDisplay" title="Date range">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="none">
+          <rect x="1" y="2" width="14" height="13" rx="2" stroke="#6B6B6B" stroke-width="1.4"/>
+          <path d="M1 6h14" stroke="#6B6B6B" stroke-width="1.4"/>
+          <path d="M5 1v2M11 1v2" stroke="#6B6B6B" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+        <span>2026-07-15</span>
+      </div>
+
+      <select class="filter-select" id="cityFilter" title="Filter by city">
+        <option value="">All Cities</option>
+        <option>Mumbai</option>
+        <option>Delhi NCR</option>
+        <option>Bangalore</option>
+        <option>Hyderabad</option>
+        <option>Chennai</option>
+        <option>Pune</option>
+        <option>Kolkata</option>
+        <option>Ahmedabad</option>
+        <option>Surat</option>
+        <option>Jaipur</option>
+      </select>
+
+      <select class="filter-select" id="carrierFilter" title="Filter by carrier">
+        <option value="">All Carriers</option>
+        <option>Bluedart</option>
+        <option>DTDC</option>
+        <option>Delhivery</option>
+        <option>Ekart</option>
+        <option>Xpressbees</option>
+      </select>
+
+      <select class="filter-select" id="statusFilter" title="Filter by health status">
+        <option value="">All Health</option>
+        <option value="good">Good</option>
+        <option value="warning">Warning</option>
+        <option value="critical">Critical</option>
+      </select>
+
+      <select class="filter-select" id="serviceFilter" title="Service type">
+        <option value="">Service Type</option>
+        <option>Same Day</option>
+        <option>Next Day</option>
+        <option>Express</option>
+        <option>Standard</option>
+      </select>
+
+      <div class="filter-spacer"></div>
+
+      <div class="live-indicator">
+        <div class="live-dot"></div>
+        <span id="lastRefreshedText">Last updated: Just now</span>
+      </div>
+
+      <button class="btn-icon-text" id="refreshBtn" onclick="refreshData()">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="none" id="refreshIcon">
+          <path d="M14 8A6 6 0 0 1 2 8a6 6 0 0 1 9-5.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M11 2.5l.5 3L14 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Refresh
+      </button>
+
+      <button class="btn-icon-text" id="downloadAllBtn">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="none">
+          <path d="M8 1v9M5 7l3 3 3-3M2 13h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Download
+      </button>
+    </div>
+  </div>
+
+  <!-- ALERT BANNERS -->
+  <div id="alertBanners"></div>
+
+  <!-- ======================================================
+       SECTION 1 — OPERATIONAL HEALTH KPIs
+       ====================================================== -->
+  <div class="section-card" id="healthSection">
+    <div class="section-header">
+      <span class="section-title">Operational Health</span>
+      <div class="section-right">
+        <span class="section-meta" id="healthMeta">Today · 24 cities · 89 stores</span>
+      </div>
+    </div>
+    <div class="health-kpi-grid" id="healthKpiGrid"></div>
+  </div>
+
+  <!-- ======================================================
+       SECTION 2 — ORDER STATES  (Shipment States pattern)
+       ====================================================== -->
+  <div class="section-card" id="orderStatesSection">
+    <div class="section-header">
+      <span class="section-title">Order States</span>
+      <span class="section-meta">Today · All Cities · All Carriers</span>
+    </div>
+    <div class="order-states-layout">
+      <div class="order-states-grid" id="orderStatesGrid"></div>
+      <div class="order-states-chart-wrap">
+        <canvas id="orderStateChart"></canvas>
+        <div class="chart-center">
+          <div class="chart-center-val" id="chartCenterVal">18,542</div>
+          <div class="chart-center-lbl">Total</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================
+       SECTION 3 — CITY & STORE OPERATIONS TABLE
+       ====================================================== -->
+  <div class="section-card" id="citySection">
+    <div class="section-header">
+      <span class="section-title">City &amp; Store Operations</span>
+      <div class="section-right">
+        <div class="view-tabs" role="group" aria-label="View by">
+          <button class="view-tab active" id="view-city" onclick="setCityView('city')">City View</button>
+          <button class="view-tab" id="view-store" onclick="setCityView('store')">Store View</button>
+        </div>
+        <span class="section-meta" id="cityMeta">24 Cities · 89 Stores</span>
+        <button class="btn-table-action">
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
+            <path d="M8 1v9M5 7l3 3 3-3M2 13h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Download
+        </button>
+      </div>
+    </div>
+
+    <!-- City Table -->
+    <div id="cityTableWrap">
+      <div class="table-scroll-wrap">
+        <table class="data-table" id="cityTable" role="grid">
+          <thead>
+            <tr>
+              <th class="sortable" data-sort="city" data-table="city">City</th>
+              <th class="sortable" data-sort="stores" data-table="city">Stores</th>
+              <th class="sortable" data-sort="riders" data-table="city">Active Riders</th>
+              <th class="sortable" data-sort="orders" data-table="city" id="citySort-orders">Total Orders</th>
+              <th class="sortable" data-sort="delivered" data-table="city">Delivered</th>
+              <th class="sortable" data-sort="failed" data-table="city">Failed</th>
+              <th class="sortable" data-sort="otd" data-table="city">OTD %</th>
+              <th class="sortable" data-sort="slaRisk" data-table="city">SLA Risk</th>
+              <th class="sortable" data-sort="exceptions" data-table="city">Exceptions</th>
+              <th>Health</th>
+            </tr>
+          </thead>
+          <tbody id="cityTableBody"></tbody>
+        </table>
+      </div>
+      <div class="table-footer">
+        <div class="page-size-wrap">
+          <select class="page-size-select" id="cityPageSize" onchange="setCityPageSize(this.value)">
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+          </select>
+          <span>/ Page</span>
+        </div>
+        <div class="pagination" id="cityPagination"></div>
+        <button class="btn-table-action" onclick="refreshData()">
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
+            <path d="M14 8A6 6 0 0 1 2 8a6 6 0 0 1 9-5.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M11 2.5l.5 3L14 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Refresh
+        </button>
+      </div>
+    </div>
+
+    <!-- Store Table (initially hidden) -->
+    <div id="storeTableWrap" style="display:none">
+      <div class="table-scroll-wrap">
+        <table class="data-table" id="storeTable" role="grid">
+          <thead>
+            <tr>
+              <th>Store</th>
+              <th>City</th>
+              <th>Carrier</th>
+              <th>Active Riders</th>
+              <th>Total Orders</th>
+              <th>Delivered</th>
+              <th>Failed</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="storeTableBody"></tbody>
+        </table>
+      </div>
+      <div class="table-footer">
+        <div class="page-size-wrap">
+          <select class="page-size-select"><option>10</option><option>25</option></select>
+          <span>/ Page</span>
+        </div>
+        <div class="pagination">
+          <button class="page-btn">&#8249;</button>
+          <button class="page-btn active">1</button>
+          <button class="page-btn">2</button>
+          <button class="page-btn">&#8250;</button>
+        </div>
+        <button class="btn-table-action">Refresh</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================
+       SECTION 4 — SLA AT RISK
+       ====================================================== -->
+  <div class="section-card" id="slaSection">
+    <div class="section-header">
+      <span class="section-title">SLA At Risk</span>
+      <div class="section-right">
+        <span class="badge badge-danger" id="slaBadge">312 orders at risk (1.68%)</span>
+        <button class="btn-table-action">
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
+            <path d="M8 1v9M5 7l3 3 3-3M2 13h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Download
+        </button>
+      </div>
+    </div>
+    <div class="table-scroll-wrap">
+      <table class="data-table" id="slaTable" role="grid">
+        <thead>
+          <tr>
+            <th>Order ID</th>
+            <th>Store</th>
+            <th>City</th>
+            <th>Customer</th>
+            <th>Promised ETA</th>
+            <th>Current ETA</th>
+            <th>Delay</th>
+            <th>Carrier</th>
+            <th>Risk Level</th>
+          </tr>
+        </thead>
+        <tbody id="slaTableBody"></tbody>
+      </table>
+    </div>
+    <div class="table-footer">
+      <div class="page-size-wrap">
+        <select class="page-size-select"><option>10</option><option>25</option><option>50</option></select>
+        <span>/ Page</span>
+      </div>
+      <div class="pagination" id="slaPagination">
+        <button class="page-btn" disabled>&#8249;</button>
+        <button class="page-btn active">1</button>
+        <button class="page-btn">2</button>
+        <button class="page-btn">3</button>
+        <button class="page-btn">4</button>
+        <button class="page-btn">&#8250;</button>
+      </div>
+      <button class="btn-table-action" onclick="refreshData()">Refresh</button>
+    </div>
+  </div>
+
+  <!-- ======================================================
+       SECTION 5 — OPEN EXCEPTIONS
+       ====================================================== -->
+  <div class="section-card" id="exceptionsSection">
+    <div class="section-header">
+      <span class="section-title">Open Exceptions</span>
+      <div class="section-right">
+        <span class="badge badge-danger" id="excBadge">47 open &nbsp;·&nbsp; 12 critical</span>
+        <button class="btn-table-action">
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
+            <path d="M8 1v9M5 7l3 3 3-3M2 13h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Download
+        </button>
+      </div>
+    </div>
+    <div class="table-scroll-wrap">
+      <table class="data-table" id="excTable" role="grid">
+        <thead>
+          <tr>
+            <th>Exception ID</th>
+            <th>Type</th>
+            <th>Related To</th>
+            <th>City</th>
+            <th>Severity</th>
+            <th>Raised At</th>
+            <th>Status</th>
+            <th>Assignee</th>
+          </tr>
+        </thead>
+        <tbody id="excTableBody"></tbody>
+      </table>
+    </div>
+    <div class="table-footer">
+      <div class="page-size-wrap">
+        <select class="page-size-select"><option>10</option><option>25</option></select>
+        <span>/ Page</span>
+      </div>
+      <div class="pagination" id="excPagination">
+        <button class="page-btn" disabled>&#8249;</button>
+        <button class="page-btn active">1</button>
+        <button class="page-btn">2</button>
+        <button class="page-btn">3</button>
+        <button class="page-btn">4</button>
+        <button class="page-btn">5</button>
+        <button class="page-btn">&#8250;</button>
+      </div>
+      <button class="btn-table-action" onclick="refreshData()">Refresh</button>
+    </div>
+  </div>
+
+  <!-- ======================================================
+       SECTION 6 — CARRIER OUTAGE STATUS
+       ====================================================== -->
+  <div class="section-card" id="outageSection">
+    <div class="section-header">
+      <span class="section-title">Carrier Outage Status</span>
+      <span class="section-meta">3 carriers monitored &nbsp;·&nbsp; 2 active outages</span>
+    </div>
+    <div class="outage-grid" id="outageGrid"></div>
+  </div>
+
+  <!-- ======================================================
+       SECTION 7 — PENDING COD
+       ====================================================== -->
+  <div class="section-card" id="codSection">
+    <div class="section-header">
+      <span class="section-title">Pending COD Collection</span>
+      <div class="section-right">
+        <span class="badge badge-warning">Total: &#8377;4,82,350</span>
+        <button class="btn-table-action">
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
+            <path d="M8 1v9M5 7l3 3 3-3M2 13h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Download
+        </button>
+      </div>
+    </div>
+    <div class="table-scroll-wrap">
+      <table class="data-table" id="codTable" role="grid">
+        <thead>
+          <tr>
+            <th>Store</th>
+            <th>City</th>
+            <th>Pending Amount</th>
+            <th>Orders</th>
+            <th>Oldest Date</th>
+            <th>Days Overdue</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="codTableBody"></tbody>
+      </table>
+    </div>
+    <div class="table-footer">
+      <div class="page-size-wrap">
+        <select class="page-size-select"><option>10</option><option>25</option></select>
+        <span>/ Page</span>
+      </div>
+      <div class="pagination" id="codPagination">
+        <button class="page-btn" disabled>&#8249;</button>
+        <button class="page-btn active">1</button>
+        <button class="page-btn">2</button>
+        <button class="page-btn">3</button>
+        <button class="page-btn">&#8250;</button>
+      </div>
+      <button class="btn-table-action" onclick="refreshData()">Refresh</button>
+    </div>
+  </div>
+
+</main>
+
+<!-- Bottom bar removed per request -->
+
+<!-- Scripts -->
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
