@@ -5820,7 +5820,7 @@ const APP_DATA = {
       "amountCollected": 11900,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -5988,7 +5988,7 @@ const APP_DATA = {
       "amountCollected": 14200,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6030,7 +6030,7 @@ const APP_DATA = {
       "amountCollected": 22100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6198,7 +6198,7 @@ const APP_DATA = {
       "amountCollected": 23000,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6212,7 +6212,7 @@ const APP_DATA = {
       "amountCollected": 20600,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6226,7 +6226,7 @@ const APP_DATA = {
       "amountCollected": 20800,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6380,7 +6380,7 @@ const APP_DATA = {
       "amountCollected": 16400,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6408,7 +6408,7 @@ const APP_DATA = {
       "amountCollected": 23400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6422,7 +6422,7 @@ const APP_DATA = {
       "amountCollected": 21300,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6478,7 +6478,7 @@ const APP_DATA = {
       "amountCollected": 13000,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6506,7 +6506,7 @@ const APP_DATA = {
       "amountCollected": 10100,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6520,7 +6520,7 @@ const APP_DATA = {
       "amountCollected": 10600,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6674,7 +6674,7 @@ const APP_DATA = {
       "amountCollected": 21700,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6702,7 +6702,7 @@ const APP_DATA = {
       "amountCollected": 19400,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6716,7 +6716,7 @@ const APP_DATA = {
       "amountCollected": 18100,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6730,7 +6730,7 @@ const APP_DATA = {
       "amountCollected": 19800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6828,7 +6828,7 @@ const APP_DATA = {
       "amountCollected": 20500,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6856,7 +6856,7 @@ const APP_DATA = {
       "amountCollected": 15200,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6870,7 +6870,7 @@ const APP_DATA = {
       "amountCollected": 13300,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -6898,7 +6898,7 @@ const APP_DATA = {
       "amountCollected": 26400,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7010,7 +7010,7 @@ const APP_DATA = {
       "amountCollected": 29800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7024,7 +7024,7 @@ const APP_DATA = {
       "amountCollected": 19300,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7052,7 +7052,7 @@ const APP_DATA = {
       "amountCollected": 24400,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7066,7 +7066,7 @@ const APP_DATA = {
       "amountCollected": 13800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7080,7 +7080,7 @@ const APP_DATA = {
       "amountCollected": 28500,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7192,7 +7192,7 @@ const APP_DATA = {
       "amountCollected": 9700,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7206,7 +7206,7 @@ const APP_DATA = {
       "amountCollected": 10200,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7234,7 +7234,7 @@ const APP_DATA = {
       "amountCollected": 21800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7458,7 +7458,7 @@ const APP_DATA = {
       "amountCollected": 27100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7514,7 +7514,7 @@ const APP_DATA = {
       "amountCollected": 18600,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7612,7 +7612,7 @@ const APP_DATA = {
       "amountCollected": 16900,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7640,7 +7640,7 @@ const APP_DATA = {
       "amountCollected": 12800,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7654,7 +7654,7 @@ const APP_DATA = {
       "amountCollected": 19700,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7696,7 +7696,7 @@ const APP_DATA = {
       "amountCollected": 23700,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7878,7 +7878,7 @@ const APP_DATA = {
       "amountCollected": 24100,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7906,7 +7906,7 @@ const APP_DATA = {
       "amountCollected": 13000,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7920,7 +7920,7 @@ const APP_DATA = {
       "amountCollected": 9300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7962,7 +7962,7 @@ const APP_DATA = {
       "amountCollected": 16400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -7990,7 +7990,7 @@ const APP_DATA = {
       "amountCollected": 14500,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8074,7 +8074,7 @@ const APP_DATA = {
       "amountCollected": 22600,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8130,7 +8130,7 @@ const APP_DATA = {
       "amountCollected": 21400,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8228,7 +8228,7 @@ const APP_DATA = {
       "amountCollected": 11600,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8284,7 +8284,7 @@ const APP_DATA = {
       "amountCollected": 24300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8298,7 +8298,7 @@ const APP_DATA = {
       "amountCollected": 10900,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8340,7 +8340,7 @@ const APP_DATA = {
       "amountCollected": 14100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8368,7 +8368,7 @@ const APP_DATA = {
       "amountCollected": 26400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8424,7 +8424,7 @@ const APP_DATA = {
       "amountCollected": 6400,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8438,7 +8438,7 @@ const APP_DATA = {
       "amountCollected": 16900,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8536,7 +8536,7 @@ const APP_DATA = {
       "amountCollected": 19300,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8578,7 +8578,7 @@ const APP_DATA = {
       "amountCollected": 8700,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8620,7 +8620,7 @@ const APP_DATA = {
       "amountCollected": 22800,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8634,7 +8634,7 @@ const APP_DATA = {
       "amountCollected": 28900,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8732,7 +8732,7 @@ const APP_DATA = {
       "amountCollected": 25100,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8802,7 +8802,7 @@ const APP_DATA = {
       "amountCollected": 17400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8844,7 +8844,7 @@ const APP_DATA = {
       "amountCollected": 17900,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8858,7 +8858,7 @@ const APP_DATA = {
       "amountCollected": 19600,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -8928,7 +8928,7 @@ const APP_DATA = {
       "amountCollected": 15700,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9054,7 +9054,7 @@ const APP_DATA = {
       "amountCollected": 18100,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9068,7 +9068,7 @@ const APP_DATA = {
       "amountCollected": 26900,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9096,7 +9096,7 @@ const APP_DATA = {
       "amountCollected": 19900,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9124,7 +9124,7 @@ const APP_DATA = {
       "amountCollected": 27200,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9306,7 +9306,7 @@ const APP_DATA = {
       "amountCollected": 18700,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9320,7 +9320,7 @@ const APP_DATA = {
       "amountCollected": 12500,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9348,7 +9348,7 @@ const APP_DATA = {
       "amountCollected": 12600,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9502,7 +9502,7 @@ const APP_DATA = {
       "amountCollected": 8400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9642,7 +9642,7 @@ const APP_DATA = {
       "amountCollected": 7200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9684,7 +9684,7 @@ const APP_DATA = {
       "amountCollected": 27200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9698,7 +9698,7 @@ const APP_DATA = {
       "amountCollected": 21200,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9740,7 +9740,7 @@ const APP_DATA = {
       "amountCollected": 18600,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9810,7 +9810,7 @@ const APP_DATA = {
       "amountCollected": 20600,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9824,7 +9824,7 @@ const APP_DATA = {
       "amountCollected": 27500,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9838,7 +9838,7 @@ const APP_DATA = {
       "amountCollected": 26600,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9880,7 +9880,7 @@ const APP_DATA = {
       "amountCollected": 14000,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -9922,7 +9922,7 @@ const APP_DATA = {
       "amountCollected": 26200,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10034,7 +10034,7 @@ const APP_DATA = {
       "amountCollected": 19400,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10076,7 +10076,7 @@ const APP_DATA = {
       "amountCollected": 27700,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10090,7 +10090,7 @@ const APP_DATA = {
       "amountCollected": 19400,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10104,7 +10104,7 @@ const APP_DATA = {
       "amountCollected": 12100,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10202,7 +10202,7 @@ const APP_DATA = {
       "amountCollected": 11300,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10272,7 +10272,7 @@ const APP_DATA = {
       "amountCollected": 19500,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10286,7 +10286,7 @@ const APP_DATA = {
       "amountCollected": 8000,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10314,7 +10314,7 @@ const APP_DATA = {
       "amountCollected": 27200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10342,7 +10342,7 @@ const APP_DATA = {
       "amountCollected": 25100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10356,7 +10356,7 @@ const APP_DATA = {
       "amountCollected": 13000,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10370,7 +10370,7 @@ const APP_DATA = {
       "amountCollected": 29800,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10510,7 +10510,7 @@ const APP_DATA = {
       "amountCollected": 24600,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10538,7 +10538,7 @@ const APP_DATA = {
       "amountCollected": 19900,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10594,7 +10594,7 @@ const APP_DATA = {
       "amountCollected": 20900,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10622,7 +10622,7 @@ const APP_DATA = {
       "amountCollected": 19600,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10678,7 +10678,7 @@ const APP_DATA = {
       "amountCollected": 16800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10720,7 +10720,7 @@ const APP_DATA = {
       "amountCollected": 10800,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10804,7 +10804,7 @@ const APP_DATA = {
       "amountCollected": 16500,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -10930,7 +10930,7 @@ const APP_DATA = {
       "amountCollected": 18400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11014,7 +11014,7 @@ const APP_DATA = {
       "amountCollected": 11300,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11042,7 +11042,7 @@ const APP_DATA = {
       "amountCollected": 28200,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11098,7 +11098,7 @@ const APP_DATA = {
       "amountCollected": 17700,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11112,7 +11112,7 @@ const APP_DATA = {
       "amountCollected": 20100,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11140,7 +11140,7 @@ const APP_DATA = {
       "amountCollected": 27200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11154,7 +11154,7 @@ const APP_DATA = {
       "amountCollected": 19400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11196,7 +11196,7 @@ const APP_DATA = {
       "amountCollected": 25500,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11224,7 +11224,7 @@ const APP_DATA = {
       "amountCollected": 9100,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11308,7 +11308,7 @@ const APP_DATA = {
       "amountCollected": 17400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11336,7 +11336,7 @@ const APP_DATA = {
       "amountCollected": 13900,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11392,7 +11392,7 @@ const APP_DATA = {
       "amountCollected": 11100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11434,7 +11434,7 @@ const APP_DATA = {
       "amountCollected": 20300,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11630,7 +11630,7 @@ const APP_DATA = {
       "amountCollected": 19100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11686,7 +11686,7 @@ const APP_DATA = {
       "amountCollected": 14200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11798,7 +11798,7 @@ const APP_DATA = {
       "amountCollected": 10200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11924,7 +11924,7 @@ const APP_DATA = {
       "amountCollected": 16400,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -11966,7 +11966,7 @@ const APP_DATA = {
       "amountCollected": 30200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12050,7 +12050,7 @@ const APP_DATA = {
       "amountCollected": 8000,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12078,7 +12078,7 @@ const APP_DATA = {
       "amountCollected": 12800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12134,7 +12134,7 @@ const APP_DATA = {
       "amountCollected": 15000,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12148,7 +12148,7 @@ const APP_DATA = {
       "amountCollected": 9400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12190,7 +12190,7 @@ const APP_DATA = {
       "amountCollected": 16600,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12218,7 +12218,7 @@ const APP_DATA = {
       "amountCollected": 21100,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12302,7 +12302,7 @@ const APP_DATA = {
       "amountCollected": 20000,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12456,7 +12456,7 @@ const APP_DATA = {
       "amountCollected": 20800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12484,7 +12484,7 @@ const APP_DATA = {
       "amountCollected": 9400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12526,7 +12526,7 @@ const APP_DATA = {
       "amountCollected": 16300,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12540,7 +12540,7 @@ const APP_DATA = {
       "amountCollected": 13700,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12610,7 +12610,7 @@ const APP_DATA = {
       "amountCollected": 10900,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12708,7 +12708,7 @@ const APP_DATA = {
       "amountCollected": 10300,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12764,7 +12764,7 @@ const APP_DATA = {
       "amountCollected": 11500,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12834,7 +12834,7 @@ const APP_DATA = {
       "amountCollected": 18300,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12862,7 +12862,7 @@ const APP_DATA = {
       "amountCollected": 25800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -12988,7 +12988,7 @@ const APP_DATA = {
       "amountCollected": 17100,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13044,7 +13044,7 @@ const APP_DATA = {
       "amountCollected": 23600,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13296,7 +13296,7 @@ const APP_DATA = {
       "amountCollected": 21400,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13338,7 +13338,7 @@ const APP_DATA = {
       "amountCollected": 18300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13352,7 +13352,7 @@ const APP_DATA = {
       "amountCollected": 14300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13380,7 +13380,7 @@ const APP_DATA = {
       "amountCollected": 6200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13422,7 +13422,7 @@ const APP_DATA = {
       "amountCollected": 19300,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13520,7 +13520,7 @@ const APP_DATA = {
       "amountCollected": 18300,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13590,7 +13590,7 @@ const APP_DATA = {
       "amountCollected": 23800,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13618,7 +13618,7 @@ const APP_DATA = {
       "amountCollected": 24100,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13646,7 +13646,7 @@ const APP_DATA = {
       "amountCollected": 6200,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13688,7 +13688,7 @@ const APP_DATA = {
       "amountCollected": 15400,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13744,7 +13744,7 @@ const APP_DATA = {
       "amountCollected": 6600,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13800,7 +13800,7 @@ const APP_DATA = {
       "amountCollected": 20900,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13842,7 +13842,7 @@ const APP_DATA = {
       "amountCollected": 19900,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -13884,7 +13884,7 @@ const APP_DATA = {
       "amountCollected": 26200,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14010,7 +14010,7 @@ const APP_DATA = {
       "amountCollected": 16500,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14094,7 +14094,7 @@ const APP_DATA = {
       "amountCollected": 28200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14178,7 +14178,7 @@ const APP_DATA = {
       "amountCollected": 8400,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14262,7 +14262,7 @@ const APP_DATA = {
       "amountCollected": 16100,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14290,7 +14290,7 @@ const APP_DATA = {
       "amountCollected": 9500,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14304,7 +14304,7 @@ const APP_DATA = {
       "amountCollected": 17700,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14332,7 +14332,7 @@ const APP_DATA = {
       "amountCollected": 19300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14542,7 +14542,7 @@ const APP_DATA = {
       "amountCollected": 12800,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14556,7 +14556,7 @@ const APP_DATA = {
       "amountCollected": 20700,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14836,7 +14836,7 @@ const APP_DATA = {
       "amountCollected": 12300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14850,7 +14850,7 @@ const APP_DATA = {
       "amountCollected": 8900,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14892,7 +14892,7 @@ const APP_DATA = {
       "amountCollected": 20900,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -14948,7 +14948,7 @@ const APP_DATA = {
       "amountCollected": 19800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -15158,7 +15158,7 @@ const APP_DATA = {
       "amountCollected": 21200,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -15214,7 +15214,7 @@ const APP_DATA = {
       "amountCollected": 19800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -15284,7 +15284,7 @@ const APP_DATA = {
       "amountCollected": 12000,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -15326,7 +15326,7 @@ const APP_DATA = {
       "amountCollected": 22700,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -15396,7 +15396,7 @@ const APP_DATA = {
       "amountCollected": 18500,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -15480,7 +15480,7 @@ const APP_DATA = {
       "amountCollected": 14300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -15494,7 +15494,7 @@ const APP_DATA = {
       "amountCollected": 22500,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -15592,7 +15592,7 @@ const APP_DATA = {
       "amountCollected": 16500,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -15830,7 +15830,7 @@ const APP_DATA = {
       "amountCollected": 27200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -15886,7 +15886,7 @@ const APP_DATA = {
       "amountCollected": 20300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16026,7 +16026,7 @@ const APP_DATA = {
       "amountCollected": 22400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16040,7 +16040,7 @@ const APP_DATA = {
       "amountCollected": 12000,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16138,7 +16138,7 @@ const APP_DATA = {
       "amountCollected": 14200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16194,7 +16194,7 @@ const APP_DATA = {
       "amountCollected": 25300,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16222,7 +16222,7 @@ const APP_DATA = {
       "amountCollected": 8900,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16236,7 +16236,7 @@ const APP_DATA = {
       "amountCollected": 22400,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16292,7 +16292,7 @@ const APP_DATA = {
       "amountCollected": 14200,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16348,7 +16348,7 @@ const APP_DATA = {
       "amountCollected": 12600,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16488,7 +16488,7 @@ const APP_DATA = {
       "amountCollected": 16200,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16516,7 +16516,7 @@ const APP_DATA = {
       "amountCollected": 18000,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16544,7 +16544,7 @@ const APP_DATA = {
       "amountCollected": 15400,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16670,7 +16670,7 @@ const APP_DATA = {
       "amountCollected": 17900,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16684,7 +16684,7 @@ const APP_DATA = {
       "amountCollected": 9400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16740,7 +16740,7 @@ const APP_DATA = {
       "amountCollected": 22100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16754,7 +16754,7 @@ const APP_DATA = {
       "amountCollected": 15100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16768,7 +16768,7 @@ const APP_DATA = {
       "amountCollected": 18900,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16782,7 +16782,7 @@ const APP_DATA = {
       "amountCollected": 17800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16796,7 +16796,7 @@ const APP_DATA = {
       "amountCollected": 12000,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16838,7 +16838,7 @@ const APP_DATA = {
       "amountCollected": 20000,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16866,7 +16866,7 @@ const APP_DATA = {
       "amountCollected": 23200,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16880,7 +16880,7 @@ const APP_DATA = {
       "amountCollected": 21800,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16922,7 +16922,7 @@ const APP_DATA = {
       "amountCollected": 19700,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -16978,7 +16978,7 @@ const APP_DATA = {
       "amountCollected": 14500,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17034,7 +17034,7 @@ const APP_DATA = {
       "amountCollected": 21700,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17118,7 +17118,7 @@ const APP_DATA = {
       "amountCollected": 25000,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17202,7 +17202,7 @@ const APP_DATA = {
       "amountCollected": 14700,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17286,7 +17286,7 @@ const APP_DATA = {
       "amountCollected": 20200,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17342,7 +17342,7 @@ const APP_DATA = {
       "amountCollected": 23900,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17370,7 +17370,7 @@ const APP_DATA = {
       "amountCollected": 15700,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17384,7 +17384,7 @@ const APP_DATA = {
       "amountCollected": 14000,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17398,7 +17398,7 @@ const APP_DATA = {
       "amountCollected": 18200,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17580,7 +17580,7 @@ const APP_DATA = {
       "amountCollected": 14100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17608,7 +17608,7 @@ const APP_DATA = {
       "amountCollected": 17900,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17622,7 +17622,7 @@ const APP_DATA = {
       "amountCollected": 22900,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17692,7 +17692,7 @@ const APP_DATA = {
       "amountCollected": 12700,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17734,7 +17734,7 @@ const APP_DATA = {
       "amountCollected": 23700,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17860,7 +17860,7 @@ const APP_DATA = {
       "amountCollected": 19000,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17916,7 +17916,7 @@ const APP_DATA = {
       "amountCollected": 15900,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17930,7 +17930,7 @@ const APP_DATA = {
       "amountCollected": 20400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -17944,7 +17944,7 @@ const APP_DATA = {
       "amountCollected": 19100,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18014,7 +18014,7 @@ const APP_DATA = {
       "amountCollected": 12200,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18056,7 +18056,7 @@ const APP_DATA = {
       "amountCollected": 17300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18070,7 +18070,7 @@ const APP_DATA = {
       "amountCollected": 22100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18168,7 +18168,7 @@ const APP_DATA = {
       "amountCollected": 8300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18280,7 +18280,7 @@ const APP_DATA = {
       "amountCollected": 16500,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18294,7 +18294,7 @@ const APP_DATA = {
       "amountCollected": 18400,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18308,7 +18308,7 @@ const APP_DATA = {
       "amountCollected": 22100,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18350,7 +18350,7 @@ const APP_DATA = {
       "amountCollected": 24600,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18378,7 +18378,7 @@ const APP_DATA = {
       "amountCollected": 15200,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18504,7 +18504,7 @@ const APP_DATA = {
       "amountCollected": 13900,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18588,7 +18588,7 @@ const APP_DATA = {
       "amountCollected": 12100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18714,7 +18714,7 @@ const APP_DATA = {
       "amountCollected": 22500,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18756,7 +18756,7 @@ const APP_DATA = {
       "amountCollected": 25000,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18854,7 +18854,7 @@ const APP_DATA = {
       "amountCollected": 13000,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18924,7 +18924,7 @@ const APP_DATA = {
       "amountCollected": 26600,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -18980,7 +18980,7 @@ const APP_DATA = {
       "amountCollected": 25800,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19064,7 +19064,7 @@ const APP_DATA = {
       "amountCollected": 13000,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19134,7 +19134,7 @@ const APP_DATA = {
       "amountCollected": 18500,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19246,7 +19246,7 @@ const APP_DATA = {
       "amountCollected": 26000,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19358,7 +19358,7 @@ const APP_DATA = {
       "amountCollected": 13200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19442,7 +19442,7 @@ const APP_DATA = {
       "amountCollected": 17500,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19610,7 +19610,7 @@ const APP_DATA = {
       "amountCollected": 10400,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19666,7 +19666,7 @@ const APP_DATA = {
       "amountCollected": 26300,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19680,7 +19680,7 @@ const APP_DATA = {
       "amountCollected": 14300,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19694,7 +19694,7 @@ const APP_DATA = {
       "amountCollected": 17000,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19750,7 +19750,7 @@ const APP_DATA = {
       "amountCollected": 16700,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19764,7 +19764,7 @@ const APP_DATA = {
       "amountCollected": 15200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19778,7 +19778,7 @@ const APP_DATA = {
       "amountCollected": 7900,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19862,7 +19862,7 @@ const APP_DATA = {
       "amountCollected": 17600,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19960,7 +19960,7 @@ const APP_DATA = {
       "amountCollected": 19900,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -19974,7 +19974,7 @@ const APP_DATA = {
       "amountCollected": 24100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20016,7 +20016,7 @@ const APP_DATA = {
       "amountCollected": 19400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20086,7 +20086,7 @@ const APP_DATA = {
       "amountCollected": 8900,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20114,7 +20114,7 @@ const APP_DATA = {
       "amountCollected": 17200,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20226,7 +20226,7 @@ const APP_DATA = {
       "amountCollected": 12100,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20282,7 +20282,7 @@ const APP_DATA = {
       "amountCollected": 12500,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20366,7 +20366,7 @@ const APP_DATA = {
       "amountCollected": 19800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20408,7 +20408,7 @@ const APP_DATA = {
       "amountCollected": 8300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20436,7 +20436,7 @@ const APP_DATA = {
       "amountCollected": 16400,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20534,7 +20534,7 @@ const APP_DATA = {
       "amountCollected": 14100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20548,7 +20548,7 @@ const APP_DATA = {
       "amountCollected": 20600,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20562,7 +20562,7 @@ const APP_DATA = {
       "amountCollected": 16600,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20590,7 +20590,7 @@ const APP_DATA = {
       "amountCollected": 22400,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20660,7 +20660,7 @@ const APP_DATA = {
       "amountCollected": 25800,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20786,7 +20786,7 @@ const APP_DATA = {
       "amountCollected": 15600,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20800,7 +20800,7 @@ const APP_DATA = {
       "amountCollected": 23600,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20828,7 +20828,7 @@ const APP_DATA = {
       "amountCollected": 13200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20856,7 +20856,7 @@ const APP_DATA = {
       "amountCollected": 21900,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20884,7 +20884,7 @@ const APP_DATA = {
       "amountCollected": 11700,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20954,7 +20954,7 @@ const APP_DATA = {
       "amountCollected": 11300,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20968,7 +20968,7 @@ const APP_DATA = {
       "amountCollected": 11400,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -20982,7 +20982,7 @@ const APP_DATA = {
       "amountCollected": 25000,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -21206,7 +21206,7 @@ const APP_DATA = {
       "amountCollected": 14200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -21220,7 +21220,7 @@ const APP_DATA = {
       "amountCollected": 19900,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -21234,7 +21234,7 @@ const APP_DATA = {
       "amountCollected": 14700,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -21346,7 +21346,7 @@ const APP_DATA = {
       "amountCollected": 24500,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -21444,7 +21444,7 @@ const APP_DATA = {
       "amountCollected": 23200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -21542,7 +21542,7 @@ const APP_DATA = {
       "amountCollected": 13600,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -21570,7 +21570,7 @@ const APP_DATA = {
       "amountCollected": 19400,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -21598,7 +21598,7 @@ const APP_DATA = {
       "amountCollected": 23700,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -21752,7 +21752,7 @@ const APP_DATA = {
       "amountCollected": 14100,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -21836,7 +21836,7 @@ const APP_DATA = {
       "amountCollected": 20600,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22032,7 +22032,7 @@ const APP_DATA = {
       "amountCollected": 14300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22074,7 +22074,7 @@ const APP_DATA = {
       "amountCollected": 25700,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22088,7 +22088,7 @@ const APP_DATA = {
       "amountCollected": 27600,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22102,7 +22102,7 @@ const APP_DATA = {
       "amountCollected": 15400,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22116,7 +22116,7 @@ const APP_DATA = {
       "amountCollected": 27100,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22214,7 +22214,7 @@ const APP_DATA = {
       "amountCollected": 9800,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22228,7 +22228,7 @@ const APP_DATA = {
       "amountCollected": 8900,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22270,7 +22270,7 @@ const APP_DATA = {
       "amountCollected": 25400,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22284,7 +22284,7 @@ const APP_DATA = {
       "amountCollected": 21200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22298,7 +22298,7 @@ const APP_DATA = {
       "amountCollected": 27300,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22340,7 +22340,7 @@ const APP_DATA = {
       "amountCollected": 11300,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22382,7 +22382,7 @@ const APP_DATA = {
       "amountCollected": 12100,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22424,7 +22424,7 @@ const APP_DATA = {
       "amountCollected": 23400,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22438,7 +22438,7 @@ const APP_DATA = {
       "amountCollected": 13900,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22452,7 +22452,7 @@ const APP_DATA = {
       "amountCollected": 21300,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22480,7 +22480,7 @@ const APP_DATA = {
       "amountCollected": 9600,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22550,7 +22550,7 @@ const APP_DATA = {
       "amountCollected": 18100,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22564,7 +22564,7 @@ const APP_DATA = {
       "amountCollected": 19000,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22578,7 +22578,7 @@ const APP_DATA = {
       "amountCollected": 14200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22634,7 +22634,7 @@ const APP_DATA = {
       "amountCollected": 10100,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22648,7 +22648,7 @@ const APP_DATA = {
       "amountCollected": 7600,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22662,7 +22662,7 @@ const APP_DATA = {
       "amountCollected": 25200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22704,7 +22704,7 @@ const APP_DATA = {
       "amountCollected": 12500,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22760,7 +22760,7 @@ const APP_DATA = {
       "amountCollected": 16200,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22830,7 +22830,7 @@ const APP_DATA = {
       "amountCollected": 24100,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22844,7 +22844,7 @@ const APP_DATA = {
       "amountCollected": 14800,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22872,7 +22872,7 @@ const APP_DATA = {
       "amountCollected": 11100,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22942,7 +22942,7 @@ const APP_DATA = {
       "amountCollected": 27600,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -22956,7 +22956,7 @@ const APP_DATA = {
       "amountCollected": 20800,
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -23054,7 +23054,7 @@ const APP_DATA = {
       "amountCollected": 26700,
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -23082,7 +23082,7 @@ const APP_DATA = {
       "amountCollected": 16800,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {
@@ -23222,7 +23222,7 @@ const APP_DATA = {
       "amountCollected": 23900,
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
-      "status": "Blocked",
+      "status": "Freezed",
       "lastCollected": "02:30 PM"
     },
     {

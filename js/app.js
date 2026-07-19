@@ -607,7 +607,7 @@ function renderDriverCODTable() {
       <td class="fw-700">\u20B9${r.cashInHand.toLocaleString('en-IN')}</td>
       <td>${r.lastCollected}</td>
       <td class="${r.dueDate < '2026-07-19' ? 'txt-danger fw-600' : ''}">${r.dueDate}</td>
-      <td><span class="badge ${r.status === 'Blocked' ? 'badge-danger' : statusClass(r.status)}">${r.status}</span></td>
+      <td><span class="badge ${r.status === 'Freezed' ? 'badge-danger' : statusClass(r.status)}">${r.status}</span></td>
     </tr>
   `).join('');
 
