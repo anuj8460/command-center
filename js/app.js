@@ -3,6 +3,11 @@
 /* =============================================
    APP STATE
    ============================================= */
+
+// Clear browser storage to ensure fresh data load on every visit
+localStorage.clear();
+sessionStorage.clear();
+
 const state = {
   activeTab: 'command-center',
   cityView: 'city',
