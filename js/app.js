@@ -25,7 +25,8 @@ const state = {
   activeState: 'All Orders',
   cityFilter: '',
   carrierFilter: '',
-  healthFilter: ''
+  healthFilter: '',
+  analyticsGrouping: 'city'
 };
 
 /* =============================================
@@ -47,23 +48,27 @@ const TABS = [
   {
     id: 'cod-tracker',
     label: 'COD Tracker',
-    sections: ['driverCodSection'],
+    sections: ['codAnalyticsSection', 'codSection', 'driverCodSection'],
     icon: `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="8" r="6"/><path d="M6 6h4M6 8.5h2.5M8.5 8.5v3" stroke-linecap="round"/></svg>`,
   }
 ];
 
-const ALL_SECTIONS = ['healthSection','orderStatesSection','citySection','slaSection','codSection','driverCodSection','driverComplianceSection'];
+const ALL_SECTIONS = ['healthSection','orderStatesSection','citySection','slaSection','codSection','codAnalyticsSection','driverCodSection','driverComplianceSection'];
 
 /* =============================================
    INIT
    ============================================= */
 document.addEventListener('DOMContentLoaded', () => {
   renderTabs();
+  switchTab(state.activeTab);
   renderAlertBanners();
+  renderHealthKPIs();
+  renderOrderStates();
   renderHealthKPIs();
   renderOrderStates();
   renderCityTable();
   renderSLATable();
+  renderCODAnalytics();
   renderCODTable();
   renderDriverCODTable();
   renderDriverComplianceTable();
@@ -106,18 +111,52 @@ function switchTab(id) {
   const tabEl = document.getElementById('tab-' + id);
   if (tabEl) { tabEl.classList.add('active'); tabEl.setAttribute('aria-selected', 'true'); }
 
-  if (id === 'command-center' || tab.sections.length === 0) {
-    ALL_SECTIONS.forEach(s => {
-      const el = document.getElementById(s);
-      if (el) el.style.display = '';
-    });
-  } else {
-    ALL_SECTIONS.forEach(s => {
-      const el = document.getElementById(s);
-      if (el) el.style.display = tab.sections.includes(s) ? '' : 'none';
-    });
-    const first = document.getElementById(tab.sections[0]);
-    if (first) setTimeout(() => first.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60);
+  ALL_SECTIONS.forEach(s => {
+    const el = document.getElementById(s);
+    if (el) el.style.display = tab.sections.includes(s) ? '' : 'none';
+  });
+
+  const dateD = document.getElementById('dateDisplay');
+  const cityF = document.getElementById('cityFilter');
+  const carrierF = document.getElementById('carrierFilter');
+  const statusF = document.getElementById('statusFilter');
+  const serviceF = document.getElementById('serviceFilter');
+  
+  const codDueDateF = document.getElementById('codDueDateFilter');
+  const codStatusF = document.getElementById('codStatusFilter');
+  const codDriverLevelF = document.getElementById('codDriverLevelFilter');
+
+  if (cityF) cityF.style.display = 'inline-block';
+
+  if (id === 'command-center') {
+    if (dateD) dateD.style.display = 'inline-block';
+    if (carrierF) carrierF.style.display = 'none';
+    if (statusF) statusF.style.display = 'none';
+    if (serviceF) serviceF.style.display = 'inline-block';
+    if (codDueDateF) codDueDateF.style.display = 'none';
+    if (codStatusF) codStatusF.style.display = 'none';
+    if (codDriverLevelF) codDriverLevelF.style.display = 'none';
+  } else if (id === 'sla-monitor') {
+    if (dateD) dateD.style.display = 'inline-block';
+    if (carrierF) carrierF.style.display = 'inline-block';
+    if (statusF) statusF.style.display = 'inline-block';
+    if (serviceF) serviceF.style.display = 'none';
+    if (codDueDateF) codDueDateF.style.display = 'none';
+    if (codStatusF) codStatusF.style.display = 'none';
+    if (codDriverLevelF) codDriverLevelF.style.display = 'none';
+  } else if (id === 'cod-tracker') {
+    if (dateD) dateD.style.display = 'none';
+    if (carrierF) carrierF.style.display = 'none';
+    if (statusF) statusF.style.display = 'none';
+    if (serviceF) serviceF.style.display = 'none';
+    if (codDueDateF) codDueDateF.style.display = 'inline-block';
+    if (codStatusF) codStatusF.style.display = 'inline-block';
+    if (codDriverLevelF) codDriverLevelF.style.display = 'inline-block';
+  }
+
+  const first = document.getElementById(tab.sections[0]);
+  if (first && id !== 'command-center') {
+    setTimeout(() => first.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60);
   }
 }
 
@@ -455,6 +494,8 @@ function renderStoreTable() {
    ============================================= */
 function renderSLATable() {
   let data = [...APP_DATA.slaRisk];
+  if (state.cityFilter) data = data.filter(r => r.city === state.cityFilter);
+  if (state.carrierFilter) data = data.filter(r => r.carrier === state.carrierFilter);
   
   if (state.carrierFilter) data = data.filter(r => r.carrier === state.carrierFilter);
   if (state.cityFilter)    data = data.filter(r => r.city === state.cityFilter);
@@ -493,6 +534,12 @@ function renderSLATable() {
 function renderCODTable() {
   let data = [...APP_DATA.pendingCOD];
   if (state.cityFilter) data = data.filter(r => r.city === state.cityFilter);
+  if (state.carrierFilter) {
+    const validStoreIds = new Set(APP_DATA.stores.filter(s => s.carrier === state.carrierFilter).map(s => s.store));
+    data = data.filter(r => validStoreIds.has(r.store));
+  }
+  if (state.cityFilter) data = data.filter(r => r.city === state.cityFilter);
+  if (state.codStatusFilter && state.codStatusFilter !== 'All Statuses') data = data.filter(r => r.status === state.codStatusFilter);
   if (state.activeKPI === 'kpi-cod') data = data.filter(r => r.status === 'Overdue');
 
   const total = data.length;
@@ -521,6 +568,24 @@ function renderCODTable() {
 function renderDriverCODTable() {
   let data = [...APP_DATA.driverCOD];
   if (state.cityFilter) data = data.filter(r => r.city === state.cityFilter);
+  if (state.codDueDateFilter && state.codDueDateFilter !== 'All Due Dates') {
+    const today = new Date('2026-07-19'); // Mock today
+    data = data.filter(r => {
+      const d = new Date(r.dueDate);
+      if (state.codDueDateFilter === '7days') {
+        const diff = (today - d) / (1000 * 60 * 60 * 24);
+        return diff >= 0 && diff <= 7;
+      } else if (state.codDueDateFilter === '30days') {
+        const diff = (today - d) / (1000 * 60 * 60 * 24);
+        return diff >= 0 && diff <= 30;
+      } else if (state.codDueDateFilter === 'lastmonth') {
+        return d.getMonth() === 5 && d.getFullYear() === 2026; // June 2026
+      }
+      return true;
+    });
+  }
+  if (state.codStatusFilter && state.codStatusFilter !== 'All Statuses') data = data.filter(r => r.status === state.codStatusFilter);
+  if (state.codDriverLevelFilter && state.codDriverLevelFilter !== 'All Driver Levels') data = data.filter(r => r.driverLevel === state.codDriverLevelFilter);
   // Re-use active KPI if it makes sense, or skip
 
   const total = data.length;
@@ -531,11 +596,13 @@ function renderDriverCODTable() {
   tbody.innerHTML = page.map(r => `
     <tr>
       <td><span class="table-link">${r.driverId}</span></td>
+      <td><span class="badge badge-neutral">${r.driverLevel}</span></td>
       <td>${r.store}</td>
       <td>${r.city}</td>
       <td class="fw-700">\u20B9${r.cashInHand.toLocaleString('en-IN')}</td>
       <td>${r.lastCollected}</td>
-      <td><span class="badge ${statusClass(r.status)}">${r.status}</span></td>
+      <td class="${r.dueDate < '2026-07-19' ? 'txt-danger fw-600' : ''}">${r.dueDate}</td>
+      <td><span class="badge ${r.status === 'Blocked' ? 'badge-danger' : statusClass(r.status)}">${r.status}</span></td>
     </tr>
   `).join('');
 
@@ -595,7 +662,7 @@ function cap(str) { return str ? str.charAt(0).toUpperCase() + str.slice(1) : st
    FILTER SETUP
    ============================================= */
 function setupFilters() {
-  const ids = ['cityFilter', 'carrierFilter', 'statusFilter', 'serviceFilter'];
+  const ids = ['cityFilter', 'carrierFilter', 'statusFilter', 'serviceFilter', 'codDueDateFilter', 'codStatusFilter', 'codDriverLevelFilter'];
   ids.forEach(id => {
     const el = document.getElementById(id);
     if (el) el.addEventListener('change', () => {
@@ -609,10 +676,14 @@ function applyFilters() {
   state.cityFilter = document.getElementById('cityFilter')?.value || '';
   state.carrierFilter = document.getElementById('carrierFilter')?.value || '';
   state.healthFilter = document.getElementById('statusFilter')?.value || '';
+  state.codDueDateFilter = document.getElementById('codDueDateFilter')?.value || '';
+  state.codStatusFilter = document.getElementById('codStatusFilter')?.value || '';
+  state.codDriverLevelFilter = document.getElementById('codDriverLevelFilter')?.value || '';
 
   state.cityPage = 1;
   renderCityTable();
   renderSLATable();
+  renderCODAnalytics();
   renderCODTable();
   renderDriverCODTable();
   renderDriverComplianceTable();
@@ -699,3 +770,107 @@ function updateLastRefreshed() {
   style.textContent = '@keyframes spin { from{transform:rotate(0)} to{transform:rotate(360deg)} }';
   document.head.appendChild(style);
 })();
+
+
+/* =============================================
+   COD ANALYTICS
+   ============================================= */
+let codAnalyticsChartInstance = null;
+
+function setAnalyticsGrouping(grouping) {
+  state.analyticsGrouping = grouping;
+  document.getElementById('btnGroupCity').classList.toggle('active', grouping === 'city');
+  document.getElementById('btnGroupLevel').classList.toggle('active', grouping === 'driverLevel');
+  renderCODAnalytics();
+}
+
+function renderCODAnalytics() {
+  const ctx = document.getElementById('codAnalyticsChart');
+  if (!ctx) return;
+
+  // Filter data exactly like driverCOD table
+  let data = [...APP_DATA.driverCOD];
+  if (state.cityFilter) data = data.filter(r => r.city === state.cityFilter);
+  if (state.codDueDateFilter && state.codDueDateFilter !== 'All Due Dates') {
+    const today = new Date('2026-07-19');
+    data = data.filter(r => {
+      const d = new Date(r.dueDate);
+      if (state.codDueDateFilter === '7days') {
+        const diff = (today - d) / (1000 * 60 * 60 * 24);
+        return diff >= 0 && diff <= 7;
+      } else if (state.codDueDateFilter === '30days') {
+        const diff = (today - d) / (1000 * 60 * 60 * 24);
+        return diff >= 0 && diff <= 30;
+      } else if (state.codDueDateFilter === 'lastmonth') {
+        return d.getMonth() === 5 && d.getFullYear() === 2026;
+      }
+      return true;
+    });
+  }
+  if (state.codStatusFilter && state.codStatusFilter !== 'All Statuses') data = data.filter(r => r.status === state.codStatusFilter);
+  if (state.codDriverLevelFilter && state.codDriverLevelFilter !== 'All Driver Levels') data = data.filter(r => r.driverLevel === state.codDriverLevelFilter);
+
+  // Calculate KPIs
+  let totalCollected = 0, totalSubmitted = 0, totalPending = 0, totalPettyCash = 0, totalTrips = 0;
+  const uniqueDrivers = new Set();
+
+  data.forEach(r => {
+    totalCollected += r.amountCollected || 0;
+    totalSubmitted += r.amountSubmitted || 0;
+    totalPending += r.cashInHand || 0;
+    totalPettyCash += r.pettyCash || 0;
+    totalTrips += r.trips || 0;
+    uniqueDrivers.add(r.driverId);
+  });
+
+  document.getElementById('kpiTotalCollected').textContent = '₹' + totalCollected.toLocaleString('en-IN');
+  document.getElementById('kpiTotalSubmitted').textContent = '₹' + totalSubmitted.toLocaleString('en-IN');
+  document.getElementById('kpiTotalPending').textContent = '₹' + totalPending.toLocaleString('en-IN');
+  document.getElementById('kpiPettyCash').textContent = '₹' + totalPettyCash.toLocaleString('en-IN');
+  document.getElementById('kpiTotalTrips').textContent = totalTrips;
+  document.getElementById('kpiActiveDrivers').textContent = uniqueDrivers.size;
+
+  // Group data for chart
+  const groups = {};
+  data.forEach(r => {
+    const key = r[state.analyticsGrouping] || 'Unknown';
+    if (!groups[key]) {
+      groups[key] = { submitted: 0, pending: 0, petty: 0 };
+    }
+    groups[key].submitted += r.amountSubmitted || 0;
+    groups[key].pending += r.cashInHand || 0;
+    groups[key].petty += r.pettyCash || 0;
+  });
+
+  const labels = Object.keys(groups);
+  const dataSubmitted = labels.map(l => groups[l].submitted);
+  const dataPending = labels.map(l => groups[l].pending);
+  const dataPetty = labels.map(l => groups[l].petty);
+
+  if (codAnalyticsChartInstance) {
+    codAnalyticsChartInstance.destroy();
+  }
+
+  codAnalyticsChartInstance = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [
+        { label: 'Submitted', data: dataSubmitted, backgroundColor: '#0BA068', stack: 'Stack 0', borderRadius: { topLeft: 0, topRight: 0, bottomLeft: 4, bottomRight: 4 } },
+        { label: 'Pending', data: dataPending, backgroundColor: '#D14343', stack: 'Stack 0' },
+        { label: 'Petty Cash', data: dataPetty, backgroundColor: '#F5A623', stack: 'Stack 0', borderRadius: { topLeft: 4, topRight: 4, bottomLeft: 0, bottomRight: 0 } }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'top', labels: { font: { family: 'Inter' } } }
+      },
+      scales: {
+        y: { stacked: true, grid: { color: '#f3f4f6' }, ticks: { font: { family: 'Inter' } } },
+        x: { stacked: true, grid: { display: false }, ticks: { font: { family: 'Inter' } } }
+      }
+    }
+  });
+}

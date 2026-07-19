@@ -34,14 +34,11 @@
   <!-- FILTER ROW -->
   <div class="filter-bar">
     <div class="filter-row">
-      <div class="filter-date" id="dateDisplay" title="Date range">
-        <svg width="13" height="13" viewBox="0 0 16 16" fill="none">
-          <rect x="1" y="2" width="14" height="13" rx="2" stroke="#6B6B6B" stroke-width="1.4"/>
-          <path d="M1 6h14" stroke="#6B6B6B" stroke-width="1.4"/>
-          <path d="M5 1v2M11 1v2" stroke="#6B6B6B" stroke-width="1.4" stroke-linecap="round"/>
-        </svg>
-        <span>2026-07-15</span>
-      </div>
+      <select class="filter-select" id="dateDisplay" title="Date range">
+        <option>Last 7 Days (Jul 12 - Jul 19)</option>
+        <option>Last 30 Days (Jun 19 - Jul 19)</option>
+        <option>Last Month (Jun 1 - Jun 30)</option>
+      </select>
 
       <select class="filter-select" id="cityFilter" title="Filter by city">
         <option value="">All Cities</option>
@@ -79,6 +76,29 @@
         <option>Next Day</option>
         <option>Express</option>
         <option>Standard</option>
+      </select>
+
+      <!-- New COD Tracker Specific Filters -->
+      <select class="filter-select" id="codDueDateFilter" title="Filter by due date" style="display:none;">
+        <option value="">All Due Dates</option>
+        <option value="7days">Last 7 Days (Jul 12 - Jul 19)</option>
+        <option value="30days">Last 30 Days (Jun 19 - Jul 19)</option>
+        <option value="lastmonth">Last Month (Jun 1 - Jun 30)</option>
+      </select>
+
+      <select class="filter-select" id="codStatusFilter" title="Filter by status" style="display:none;">
+        <option value="">All Statuses</option>
+        <option>Pending</option>
+        <option>Due Today</option>
+        <option>Blocked</option>
+        <option>Overdue</option>
+      </select>
+
+      <select class="filter-select" id="codDriverLevelFilter" title="Filter by driver level" style="display:none;">
+        <option value="">All Driver Levels</option>
+        <option>Level 1</option>
+        <option>Level 2</option>
+        <option>Level 3</option>
       </select>
 
       <div class="filter-spacer"></div>
@@ -377,6 +397,48 @@
   </div>
 
   <!-- ======================================================
+       SECTION 7.5 — COD ANALYTICS (For COD Tracker Tab)
+       ====================================================== -->
+  <div class="section-card" id="codAnalyticsSection" style="display:none;">
+    <div class="section-header" style="justify-content: space-between;">
+      <span class="section-title">COD Collection Analytics</span>
+      <div class="chart-toggle-group">
+        <button class="chart-toggle-btn active" id="btnGroupCity" onclick="setAnalyticsGrouping('city')">By City</button>
+        <button class="chart-toggle-btn" id="btnGroupLevel" onclick="setAnalyticsGrouping('driverLevel')">By Driver Level</button>
+      </div>
+    </div>
+    <div class="analytics-kpis">
+      <div class="kpi-card-mini">
+        <span class="kpi-card-mini-title">Total Collected</span>
+        <span class="kpi-card-mini-value" id="kpiTotalCollected">₹0</span>
+      </div>
+      <div class="kpi-card-mini">
+        <span class="kpi-card-mini-title">Total Submitted</span>
+        <span class="kpi-card-mini-value txt-success" id="kpiTotalSubmitted">₹0</span>
+      </div>
+      <div class="kpi-card-mini">
+        <span class="kpi-card-mini-title">Total Pending</span>
+        <span class="kpi-card-mini-value txt-danger" id="kpiTotalPending">₹0</span>
+      </div>
+      <div class="kpi-card-mini">
+        <span class="kpi-card-mini-title">Petty Cash</span>
+        <span class="kpi-card-mini-value txt-warning" id="kpiPettyCash">₹0</span>
+      </div>
+      <div class="kpi-card-mini">
+        <span class="kpi-card-mini-title">Total Trips</span>
+        <span class="kpi-card-mini-value" id="kpiTotalTrips">0</span>
+      </div>
+      <div class="kpi-card-mini">
+        <span class="kpi-card-mini-title">Active Drivers</span>
+        <span class="kpi-card-mini-value" id="kpiActiveDrivers">0</span>
+      </div>
+    </div>
+    <div style="height: 300px; width: 100%; position: relative; margin-top: 20px;">
+      <canvas id="codAnalyticsChart"></canvas>
+    </div>
+  </div>
+
+  <!-- ======================================================
        SECTION 8 — DRIVER COD (For COD Tracker Tab)
        ====================================================== -->
   <div class="section-card" id="driverCodSection" style="display:none;">
@@ -396,10 +458,12 @@
         <thead>
           <tr>
             <th>Driver ID</th>
+            <th>Driver Level</th>
             <th>Store</th>
             <th>City</th>
             <th>Cash In Hand</th>
             <th>Last Collected</th>
+            <th>Due Date</th>
             <th>Status</th>
           </tr>
         </thead>

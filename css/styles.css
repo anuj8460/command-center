@@ -839,3 +839,55 @@ button { font-family: inherit; }
 }
 .toggle-switch.on { background: var(--primary); }
 .toggle-switch.on::after { transform: translateX(16px); }
+
+/* COD Analytics Styles */
+.analytics-kpis {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.kpi-card-mini {
+  flex: 1;
+  min-width: 120px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 12px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.kpi-card-mini-title {
+  font-size: 11px;
+  color: var(--text-secondary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.kpi-card-mini-value {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.chart-toggle-group {
+  display: flex;
+  background: var(--bg-secondary);
+  border-radius: 6px;
+  padding: 2px;
+}
+.chart-toggle-btn {
+  background: transparent;
+  border: none;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  cursor: pointer;
+  border-radius: 4px;
+}
+.chart-toggle-btn.active {
+  background: #FFFFFF;
+  color: var(--text-primary);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
