@@ -992,7 +992,7 @@ function renderIncentiveChart(groups) {
           tension: 0.3
         },
         { label: 'Cleared', data: dataCleared, backgroundColor: '#0BA068', stack: 'Stack 0' },
-        { label: 'On Hold', data: dataHold, backgroundColor: '#D14343', stack: 'Stack 0' }
+        { label: 'Pending', data: dataHold, backgroundColor: '#D14343', stack: 'Stack 0' }
       ]
     },
     options: {
@@ -1028,7 +1028,7 @@ function renderIncentiveTable() {
     }
     const hold = incAmount - cleared;
     const badge = hold > 100 ? 'badge-danger' : 'badge-success';
-    const statusTxt = hold > 100 ? 'On Hold' : 'Cleared';
+    const statusTxt = hold > 100 ? 'Pending' : 'Cleared';
 
     return `
       <tr>
