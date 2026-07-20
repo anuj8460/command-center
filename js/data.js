@@ -5751,7 +5751,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1001",
@@ -5765,7 +5766,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1002",
@@ -5779,7 +5781,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1003",
@@ -5793,7 +5796,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1004",
@@ -5807,7 +5811,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1005",
@@ -5821,7 +5826,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1006",
@@ -5835,7 +5841,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1007",
@@ -5849,7 +5856,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1008",
@@ -5863,7 +5871,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1009",
@@ -5877,7 +5886,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1010",
@@ -5891,7 +5901,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1011",
@@ -5905,7 +5916,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1012",
@@ -5919,7 +5931,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1013",
@@ -5933,7 +5946,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1014",
@@ -5947,7 +5961,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1015",
@@ -5961,7 +5976,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1016",
@@ -5975,7 +5991,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1017",
@@ -5989,7 +6006,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1018",
@@ -6003,7 +6021,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1019",
@@ -6017,7 +6036,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1020",
@@ -6031,7 +6051,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1021",
@@ -6045,7 +6066,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1022",
@@ -6059,7 +6081,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1023",
@@ -6073,7 +6096,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1024",
@@ -6087,7 +6111,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1025",
@@ -6101,7 +6126,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1026",
@@ -6115,7 +6141,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1027",
@@ -6129,7 +6156,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1028",
@@ -6143,7 +6171,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1029",
@@ -6157,7 +6186,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1030",
@@ -6171,7 +6201,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1031",
@@ -6185,7 +6216,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1032",
@@ -6199,7 +6231,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1033",
@@ -6213,7 +6246,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1034",
@@ -6227,7 +6261,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1035",
@@ -6241,7 +6276,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1036",
@@ -6255,7 +6291,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1037",
@@ -6269,7 +6306,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1038",
@@ -6283,7 +6321,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1039",
@@ -6297,7 +6336,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1040",
@@ -6311,7 +6351,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1041",
@@ -6325,7 +6366,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1042",
@@ -6339,7 +6381,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1043",
@@ -6353,7 +6396,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1044",
@@ -6367,7 +6411,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1045",
@@ -6381,7 +6426,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1046",
@@ -6395,7 +6441,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1047",
@@ -6409,7 +6456,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1048",
@@ -6423,7 +6471,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1049",
@@ -6437,7 +6486,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1050",
@@ -6451,7 +6501,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1051",
@@ -6465,7 +6516,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1052",
@@ -6479,7 +6531,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1053",
@@ -6493,7 +6546,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1054",
@@ -6507,7 +6561,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1055",
@@ -6521,7 +6576,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1056",
@@ -6535,7 +6591,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1057",
@@ -6549,7 +6606,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1058",
@@ -6563,7 +6621,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1059",
@@ -6577,7 +6636,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1060",
@@ -6591,7 +6651,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1061",
@@ -6605,7 +6666,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1062",
@@ -6619,7 +6681,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1063",
@@ -6633,7 +6696,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1064",
@@ -6647,7 +6711,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1065",
@@ -6661,7 +6726,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1066",
@@ -6675,7 +6741,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1067",
@@ -6689,7 +6756,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1068",
@@ -6703,7 +6771,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1069",
@@ -6717,7 +6786,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1070",
@@ -6731,7 +6801,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1071",
@@ -6745,7 +6816,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1072",
@@ -6759,7 +6831,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1073",
@@ -6773,7 +6846,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1074",
@@ -6787,7 +6861,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1075",
@@ -6801,7 +6876,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1076",
@@ -6815,7 +6891,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1077",
@@ -6829,7 +6906,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1078",
@@ -6843,7 +6921,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1079",
@@ -6857,7 +6936,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1080",
@@ -6871,7 +6951,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1081",
@@ -6885,7 +6966,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1082",
@@ -6899,7 +6981,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1083",
@@ -6913,7 +6996,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1084",
@@ -6927,7 +7011,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1085",
@@ -6941,7 +7026,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1086",
@@ -6955,7 +7041,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1087",
@@ -6969,7 +7056,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1088",
@@ -6983,7 +7071,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1089",
@@ -6997,7 +7086,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1090",
@@ -7011,7 +7101,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1091",
@@ -7025,7 +7116,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1092",
@@ -7039,7 +7131,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1093",
@@ -7053,7 +7146,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1094",
@@ -7067,7 +7161,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1095",
@@ -7081,7 +7176,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1096",
@@ -7095,7 +7191,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1097",
@@ -7109,7 +7206,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1098",
@@ -7123,7 +7221,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1099",
@@ -7137,7 +7236,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1100",
@@ -7151,7 +7251,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1101",
@@ -7165,7 +7266,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1102",
@@ -7179,7 +7281,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1103",
@@ -7193,7 +7296,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1104",
@@ -7207,7 +7311,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1105",
@@ -7221,7 +7326,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1106",
@@ -7235,7 +7341,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1107",
@@ -7249,7 +7356,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1108",
@@ -7263,7 +7371,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1109",
@@ -7277,7 +7386,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1110",
@@ -7291,7 +7401,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1111",
@@ -7305,7 +7416,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1112",
@@ -7319,7 +7431,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1113",
@@ -7333,7 +7446,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1114",
@@ -7347,7 +7461,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1115",
@@ -7361,7 +7476,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1116",
@@ -7375,7 +7491,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1117",
@@ -7389,7 +7506,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1118",
@@ -7403,7 +7521,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1119",
@@ -7417,7 +7536,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1120",
@@ -7431,7 +7551,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1121",
@@ -7445,7 +7566,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1122",
@@ -7459,7 +7581,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1123",
@@ -7473,7 +7596,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1124",
@@ -7487,7 +7611,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1125",
@@ -7501,7 +7626,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1126",
@@ -7515,7 +7641,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1127",
@@ -7529,7 +7656,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1128",
@@ -7543,7 +7671,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1129",
@@ -7557,7 +7686,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1130",
@@ -7571,7 +7701,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1131",
@@ -7585,7 +7716,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1132",
@@ -7599,7 +7731,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1133",
@@ -7613,7 +7746,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1134",
@@ -7627,7 +7761,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1135",
@@ -7641,7 +7776,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1136",
@@ -7655,7 +7791,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1137",
@@ -7669,7 +7806,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1138",
@@ -7683,7 +7821,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1139",
@@ -7697,7 +7836,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1140",
@@ -7711,7 +7851,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1141",
@@ -7725,7 +7866,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1142",
@@ -7739,7 +7881,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1143",
@@ -7753,7 +7896,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1144",
@@ -7767,7 +7911,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1145",
@@ -7781,7 +7926,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1146",
@@ -7795,7 +7941,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1147",
@@ -7809,7 +7956,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1148",
@@ -7823,7 +7971,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1149",
@@ -7837,7 +7986,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1150",
@@ -7851,7 +8001,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1151",
@@ -7865,7 +8016,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1152",
@@ -7879,7 +8031,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1153",
@@ -7893,7 +8046,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1154",
@@ -7907,7 +8061,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1155",
@@ -7921,7 +8076,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1156",
@@ -7935,7 +8091,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1157",
@@ -7949,7 +8106,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1158",
@@ -7963,7 +8121,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1159",
@@ -7977,7 +8136,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1160",
@@ -7991,7 +8151,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1161",
@@ -8005,7 +8166,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1162",
@@ -8019,7 +8181,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1163",
@@ -8033,7 +8196,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1164",
@@ -8047,7 +8211,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1165",
@@ -8061,7 +8226,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1166",
@@ -8075,7 +8241,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1167",
@@ -8089,7 +8256,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1168",
@@ -8103,7 +8271,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1169",
@@ -8117,7 +8286,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1170",
@@ -8131,7 +8301,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1171",
@@ -8145,7 +8316,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1172",
@@ -8159,7 +8331,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1173",
@@ -8173,7 +8346,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1174",
@@ -8187,7 +8361,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1175",
@@ -8201,7 +8376,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1176",
@@ -8215,7 +8391,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1177",
@@ -8229,7 +8406,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1178",
@@ -8243,7 +8421,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1179",
@@ -8257,7 +8436,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1180",
@@ -8271,7 +8451,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1181",
@@ -8285,7 +8466,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1182",
@@ -8299,7 +8481,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1183",
@@ -8313,7 +8496,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1184",
@@ -8327,7 +8511,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1185",
@@ -8341,7 +8526,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1186",
@@ -8355,7 +8541,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1187",
@@ -8369,7 +8556,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1188",
@@ -8383,7 +8571,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1189",
@@ -8397,7 +8586,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1190",
@@ -8411,7 +8601,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1191",
@@ -8425,7 +8616,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1192",
@@ -8439,7 +8631,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1193",
@@ -8453,7 +8646,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1194",
@@ -8467,7 +8661,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1195",
@@ -8481,7 +8676,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1196",
@@ -8495,7 +8691,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1197",
@@ -8509,7 +8706,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1198",
@@ -8523,7 +8721,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1199",
@@ -8537,7 +8736,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1200",
@@ -8551,7 +8751,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1201",
@@ -8565,7 +8766,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1202",
@@ -8579,7 +8781,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1203",
@@ -8593,7 +8796,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1204",
@@ -8607,7 +8811,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1205",
@@ -8621,7 +8826,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1206",
@@ -8635,7 +8841,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1207",
@@ -8649,7 +8856,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1208",
@@ -8663,7 +8871,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1209",
@@ -8677,7 +8886,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1210",
@@ -8691,7 +8901,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1211",
@@ -8705,7 +8916,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1212",
@@ -8719,7 +8931,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1213",
@@ -8733,7 +8946,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1214",
@@ -8747,7 +8961,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1215",
@@ -8761,7 +8976,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1216",
@@ -8775,7 +8991,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1217",
@@ -8789,7 +9006,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1218",
@@ -8803,7 +9021,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1219",
@@ -8817,7 +9036,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1220",
@@ -8831,7 +9051,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1221",
@@ -8845,7 +9066,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1222",
@@ -8859,7 +9081,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1223",
@@ -8873,7 +9096,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1224",
@@ -8887,7 +9111,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1225",
@@ -8901,7 +9126,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1226",
@@ -8915,7 +9141,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1227",
@@ -8929,7 +9156,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1228",
@@ -8943,7 +9171,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1229",
@@ -8957,7 +9186,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1230",
@@ -8971,7 +9201,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1231",
@@ -8985,7 +9216,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1232",
@@ -8999,7 +9231,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1233",
@@ -9013,7 +9246,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1234",
@@ -9027,7 +9261,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1235",
@@ -9041,7 +9276,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1236",
@@ -9055,7 +9291,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1237",
@@ -9069,7 +9306,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1238",
@@ -9083,7 +9321,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1239",
@@ -9097,7 +9336,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1240",
@@ -9111,7 +9351,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1241",
@@ -9125,7 +9366,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1242",
@@ -9139,7 +9381,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1243",
@@ -9153,7 +9396,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1244",
@@ -9167,7 +9411,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1245",
@@ -9181,7 +9426,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1246",
@@ -9195,7 +9441,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1247",
@@ -9209,7 +9456,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1248",
@@ -9223,7 +9471,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1249",
@@ -9237,7 +9486,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1250",
@@ -9251,7 +9501,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1251",
@@ -9265,7 +9516,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1252",
@@ -9279,7 +9531,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1253",
@@ -9293,7 +9546,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1254",
@@ -9307,7 +9561,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1255",
@@ -9321,7 +9576,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1256",
@@ -9335,7 +9591,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1257",
@@ -9349,7 +9606,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1258",
@@ -9363,7 +9621,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1259",
@@ -9377,7 +9636,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1260",
@@ -9391,7 +9651,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1261",
@@ -9405,7 +9666,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1262",
@@ -9419,7 +9681,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1263",
@@ -9433,7 +9696,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1264",
@@ -9447,7 +9711,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1265",
@@ -9461,7 +9726,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1266",
@@ -9475,7 +9741,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1267",
@@ -9489,7 +9756,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1268",
@@ -9503,7 +9771,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1269",
@@ -9517,7 +9786,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1270",
@@ -9531,7 +9801,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1271",
@@ -9545,7 +9816,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1272",
@@ -9559,7 +9831,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1273",
@@ -9573,7 +9846,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1274",
@@ -9587,7 +9861,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1275",
@@ -9601,7 +9876,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1276",
@@ -9615,7 +9891,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1277",
@@ -9629,7 +9906,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1278",
@@ -9643,7 +9921,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1279",
@@ -9657,7 +9936,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1280",
@@ -9671,7 +9951,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1281",
@@ -9685,7 +9966,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1282",
@@ -9699,7 +9981,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1283",
@@ -9713,7 +9996,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1284",
@@ -9727,7 +10011,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1285",
@@ -9741,7 +10026,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1286",
@@ -9755,7 +10041,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1287",
@@ -9769,7 +10056,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1288",
@@ -9783,7 +10071,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1289",
@@ -9797,7 +10086,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1290",
@@ -9811,7 +10101,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1291",
@@ -9825,7 +10116,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1292",
@@ -9839,7 +10131,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1293",
@@ -9853,7 +10146,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1294",
@@ -9867,7 +10161,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1295",
@@ -9881,7 +10176,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1296",
@@ -9895,7 +10191,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1297",
@@ -9909,7 +10206,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1298",
@@ -9923,7 +10221,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1299",
@@ -9937,7 +10236,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1300",
@@ -9951,7 +10251,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1301",
@@ -9965,7 +10266,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1302",
@@ -9979,7 +10281,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1303",
@@ -9993,7 +10296,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1304",
@@ -10007,7 +10311,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1305",
@@ -10021,7 +10326,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1306",
@@ -10035,7 +10341,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1307",
@@ -10049,7 +10356,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1308",
@@ -10063,7 +10371,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1309",
@@ -10077,7 +10386,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1310",
@@ -10091,7 +10401,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1311",
@@ -10105,7 +10416,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1312",
@@ -10119,7 +10431,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1313",
@@ -10133,7 +10446,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1314",
@@ -10147,7 +10461,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1315",
@@ -10161,7 +10476,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1316",
@@ -10175,7 +10491,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1317",
@@ -10189,7 +10506,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1318",
@@ -10203,7 +10521,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1319",
@@ -10217,7 +10536,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1320",
@@ -10231,7 +10551,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1321",
@@ -10245,7 +10566,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1322",
@@ -10259,7 +10581,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1323",
@@ -10273,7 +10596,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1324",
@@ -10287,7 +10611,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1325",
@@ -10301,7 +10626,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1326",
@@ -10315,7 +10641,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1327",
@@ -10329,7 +10656,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1328",
@@ -10343,7 +10671,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1329",
@@ -10357,7 +10686,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1330",
@@ -10371,7 +10701,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1331",
@@ -10385,7 +10716,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1332",
@@ -10399,7 +10731,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1333",
@@ -10413,7 +10746,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1334",
@@ -10427,7 +10761,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1335",
@@ -10441,7 +10776,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1336",
@@ -10455,7 +10791,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1337",
@@ -10469,7 +10806,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1338",
@@ -10483,7 +10821,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1339",
@@ -10497,7 +10836,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1340",
@@ -10511,7 +10851,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1341",
@@ -10525,7 +10866,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1342",
@@ -10539,7 +10881,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1343",
@@ -10553,7 +10896,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1344",
@@ -10567,7 +10911,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1345",
@@ -10581,7 +10926,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1346",
@@ -10595,7 +10941,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1347",
@@ -10609,7 +10956,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1348",
@@ -10623,7 +10971,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1349",
@@ -10637,7 +10986,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1350",
@@ -10651,7 +11001,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1351",
@@ -10665,7 +11016,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1352",
@@ -10679,7 +11031,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1353",
@@ -10693,7 +11046,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1354",
@@ -10707,7 +11061,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1355",
@@ -10721,7 +11076,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1356",
@@ -10735,7 +11091,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1357",
@@ -10749,7 +11106,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1358",
@@ -10763,7 +11121,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1359",
@@ -10777,7 +11136,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1360",
@@ -10791,7 +11151,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1361",
@@ -10805,7 +11166,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1362",
@@ -10819,7 +11181,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1363",
@@ -10833,7 +11196,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1364",
@@ -10847,7 +11211,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1365",
@@ -10861,7 +11226,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1366",
@@ -10875,7 +11241,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1367",
@@ -10889,7 +11256,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1368",
@@ -10903,7 +11271,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1369",
@@ -10917,7 +11286,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1370",
@@ -10931,7 +11301,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1371",
@@ -10945,7 +11316,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1372",
@@ -10959,7 +11331,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1373",
@@ -10973,7 +11346,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1374",
@@ -10987,7 +11361,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1375",
@@ -11001,7 +11376,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1376",
@@ -11015,7 +11391,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1377",
@@ -11029,7 +11406,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1378",
@@ -11043,7 +11421,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1379",
@@ -11057,7 +11436,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1380",
@@ -11071,7 +11451,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1381",
@@ -11085,7 +11466,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1382",
@@ -11099,7 +11481,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1383",
@@ -11113,7 +11496,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1384",
@@ -11127,7 +11511,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1385",
@@ -11141,7 +11526,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1386",
@@ -11155,7 +11541,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1387",
@@ -11169,7 +11556,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1388",
@@ -11183,7 +11571,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1389",
@@ -11197,7 +11586,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1390",
@@ -11211,7 +11601,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1391",
@@ -11225,7 +11616,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1392",
@@ -11239,7 +11631,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1393",
@@ -11253,7 +11646,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1394",
@@ -11267,7 +11661,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1395",
@@ -11281,7 +11676,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1396",
@@ -11295,7 +11691,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1397",
@@ -11309,7 +11706,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1398",
@@ -11323,7 +11721,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1399",
@@ -11337,7 +11736,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1400",
@@ -11351,7 +11751,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1401",
@@ -11365,7 +11766,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1402",
@@ -11379,7 +11781,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1403",
@@ -11393,7 +11796,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1404",
@@ -11407,7 +11811,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1405",
@@ -11421,7 +11826,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1406",
@@ -11435,7 +11841,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1407",
@@ -11449,7 +11856,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1408",
@@ -11463,7 +11871,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1409",
@@ -11477,7 +11886,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1410",
@@ -11491,7 +11901,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1411",
@@ -11505,7 +11916,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1412",
@@ -11519,7 +11931,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1413",
@@ -11533,7 +11946,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1414",
@@ -11547,7 +11961,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1415",
@@ -11561,7 +11976,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1416",
@@ -11575,7 +11991,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1417",
@@ -11589,7 +12006,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1418",
@@ -11603,7 +12021,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1419",
@@ -11617,7 +12036,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1420",
@@ -11631,7 +12051,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1421",
@@ -11645,7 +12066,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1422",
@@ -11659,7 +12081,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1423",
@@ -11673,7 +12096,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1424",
@@ -11687,7 +12111,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1425",
@@ -11701,7 +12126,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1426",
@@ -11715,7 +12141,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1427",
@@ -11729,7 +12156,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1428",
@@ -11743,7 +12171,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1429",
@@ -11757,7 +12186,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1430",
@@ -11771,7 +12201,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1431",
@@ -11785,7 +12216,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1432",
@@ -11799,7 +12231,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1433",
@@ -11813,7 +12246,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1434",
@@ -11827,7 +12261,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1435",
@@ -11841,7 +12276,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1436",
@@ -11855,7 +12291,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1437",
@@ -11869,7 +12306,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1438",
@@ -11883,7 +12321,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1439",
@@ -11897,7 +12336,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1440",
@@ -11911,7 +12351,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1441",
@@ -11925,7 +12366,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1442",
@@ -11939,7 +12381,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1443",
@@ -11953,7 +12396,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1444",
@@ -11967,7 +12411,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1445",
@@ -11981,7 +12426,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1446",
@@ -11995,7 +12441,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1447",
@@ -12009,7 +12456,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1448",
@@ -12023,7 +12471,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1449",
@@ -12037,7 +12486,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1450",
@@ -12051,7 +12501,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1451",
@@ -12065,7 +12516,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1452",
@@ -12079,7 +12531,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1453",
@@ -12093,7 +12546,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1454",
@@ -12107,7 +12561,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1455",
@@ -12121,7 +12576,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1456",
@@ -12135,7 +12591,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1457",
@@ -12149,7 +12606,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1458",
@@ -12163,7 +12621,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1459",
@@ -12177,7 +12636,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1460",
@@ -12191,7 +12651,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1461",
@@ -12205,7 +12666,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1462",
@@ -12219,7 +12681,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1463",
@@ -12233,7 +12696,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1464",
@@ -12247,7 +12711,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1465",
@@ -12261,7 +12726,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1466",
@@ -12275,7 +12741,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1467",
@@ -12289,7 +12756,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1468",
@@ -12303,7 +12771,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1469",
@@ -12317,7 +12786,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1470",
@@ -12331,7 +12801,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1471",
@@ -12345,7 +12816,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1472",
@@ -12359,7 +12831,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1473",
@@ -12373,7 +12846,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1474",
@@ -12387,7 +12861,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1475",
@@ -12401,7 +12876,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1476",
@@ -12415,7 +12891,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1477",
@@ -12429,7 +12906,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1478",
@@ -12443,7 +12921,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1479",
@@ -12457,7 +12936,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1480",
@@ -12471,7 +12951,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1481",
@@ -12485,7 +12966,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1482",
@@ -12499,7 +12981,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1483",
@@ -12513,7 +12996,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1484",
@@ -12527,7 +13011,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1485",
@@ -12541,7 +13026,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1486",
@@ -12555,7 +13041,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1487",
@@ -12569,7 +13056,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1488",
@@ -12583,7 +13071,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1489",
@@ -12597,7 +13086,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1490",
@@ -12611,7 +13101,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1491",
@@ -12625,7 +13116,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1492",
@@ -12639,7 +13131,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1493",
@@ -12653,7 +13146,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1494",
@@ -12667,7 +13161,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1495",
@@ -12681,7 +13176,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1496",
@@ -12695,7 +13191,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1497",
@@ -12709,7 +13206,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1498",
@@ -12723,7 +13221,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1499",
@@ -12737,7 +13236,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1500",
@@ -12751,7 +13251,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1501",
@@ -12765,7 +13266,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1502",
@@ -12779,7 +13281,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1503",
@@ -12793,7 +13296,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1504",
@@ -12807,7 +13311,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1505",
@@ -12821,7 +13326,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1506",
@@ -12835,7 +13341,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1507",
@@ -12849,7 +13356,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1508",
@@ -12863,7 +13371,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1509",
@@ -12877,7 +13386,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1510",
@@ -12891,7 +13401,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1511",
@@ -12905,7 +13416,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1512",
@@ -12919,7 +13431,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1513",
@@ -12933,7 +13446,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1514",
@@ -12947,7 +13461,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1515",
@@ -12961,7 +13476,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1516",
@@ -12975,7 +13491,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1517",
@@ -12989,7 +13506,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1518",
@@ -13003,7 +13521,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1519",
@@ -13017,7 +13536,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1520",
@@ -13031,7 +13551,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1521",
@@ -13045,7 +13566,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1522",
@@ -13059,7 +13581,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1523",
@@ -13073,7 +13596,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1524",
@@ -13087,7 +13611,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1525",
@@ -13101,7 +13626,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1526",
@@ -13115,7 +13641,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1527",
@@ -13129,7 +13656,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1528",
@@ -13143,7 +13671,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1529",
@@ -13157,7 +13686,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1530",
@@ -13171,7 +13701,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1531",
@@ -13185,7 +13716,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1532",
@@ -13199,7 +13731,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1533",
@@ -13213,7 +13746,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1534",
@@ -13227,7 +13761,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1535",
@@ -13241,7 +13776,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1536",
@@ -13255,7 +13791,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1537",
@@ -13269,7 +13806,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1538",
@@ -13283,7 +13821,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1539",
@@ -13297,7 +13836,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1540",
@@ -13311,7 +13851,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1541",
@@ -13325,7 +13866,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1542",
@@ -13339,7 +13881,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1543",
@@ -13353,7 +13896,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1544",
@@ -13367,7 +13911,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1545",
@@ -13381,7 +13926,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1546",
@@ -13395,7 +13941,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1547",
@@ -13409,7 +13956,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1548",
@@ -13423,7 +13971,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1549",
@@ -13437,7 +13986,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1550",
@@ -13451,7 +14001,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1551",
@@ -13465,7 +14016,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1552",
@@ -13479,7 +14031,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1553",
@@ -13493,7 +14046,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1554",
@@ -13507,7 +14061,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1555",
@@ -13521,7 +14076,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1556",
@@ -13535,7 +14091,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1557",
@@ -13549,7 +14106,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1558",
@@ -13563,7 +14121,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1559",
@@ -13577,7 +14136,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1560",
@@ -13591,7 +14151,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1561",
@@ -13605,7 +14166,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1562",
@@ -13619,7 +14181,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1563",
@@ -13633,7 +14196,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1564",
@@ -13647,7 +14211,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1565",
@@ -13661,7 +14226,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1566",
@@ -13675,7 +14241,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1567",
@@ -13689,7 +14256,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1568",
@@ -13703,7 +14271,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1569",
@@ -13717,7 +14286,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1570",
@@ -13731,7 +14301,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1571",
@@ -13745,7 +14316,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1572",
@@ -13759,7 +14331,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1573",
@@ -13773,7 +14346,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1574",
@@ -13787,7 +14361,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1575",
@@ -13801,7 +14376,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1576",
@@ -13815,7 +14391,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1577",
@@ -13829,7 +14406,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1578",
@@ -13843,7 +14421,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1579",
@@ -13857,7 +14436,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1580",
@@ -13871,7 +14451,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1581",
@@ -13885,7 +14466,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1582",
@@ -13899,7 +14481,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1583",
@@ -13913,7 +14496,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1584",
@@ -13927,7 +14511,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1585",
@@ -13941,7 +14526,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1586",
@@ -13955,7 +14541,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1587",
@@ -13969,7 +14556,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1588",
@@ -13983,7 +14571,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1589",
@@ -13997,7 +14586,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1590",
@@ -14011,7 +14601,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1591",
@@ -14025,7 +14616,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1592",
@@ -14039,7 +14631,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1593",
@@ -14053,7 +14646,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1594",
@@ -14067,7 +14661,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1595",
@@ -14081,7 +14676,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1596",
@@ -14095,7 +14691,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1597",
@@ -14109,7 +14706,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1598",
@@ -14123,7 +14721,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1599",
@@ -14137,7 +14736,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1600",
@@ -14151,7 +14751,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1601",
@@ -14165,7 +14766,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1602",
@@ -14179,7 +14781,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1603",
@@ -14193,7 +14796,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1604",
@@ -14207,7 +14811,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1605",
@@ -14221,7 +14826,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1606",
@@ -14235,7 +14841,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1607",
@@ -14249,7 +14856,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1608",
@@ -14263,7 +14871,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1609",
@@ -14277,7 +14886,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1610",
@@ -14291,7 +14901,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1611",
@@ -14305,7 +14916,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1612",
@@ -14319,7 +14931,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1613",
@@ -14333,7 +14946,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1614",
@@ -14347,7 +14961,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1615",
@@ -14361,7 +14976,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1616",
@@ -14375,7 +14991,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1617",
@@ -14389,7 +15006,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1618",
@@ -14403,7 +15021,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1619",
@@ -14417,7 +15036,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1620",
@@ -14431,7 +15051,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1621",
@@ -14445,7 +15066,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1622",
@@ -14459,7 +15081,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1623",
@@ -14473,7 +15096,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1624",
@@ -14487,7 +15111,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1625",
@@ -14501,7 +15126,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1626",
@@ -14515,7 +15141,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1627",
@@ -14529,7 +15156,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1628",
@@ -14543,7 +15171,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1629",
@@ -14557,7 +15186,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1630",
@@ -14571,7 +15201,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1631",
@@ -14585,7 +15216,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1632",
@@ -14599,7 +15231,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1633",
@@ -14613,7 +15246,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1634",
@@ -14627,7 +15261,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1635",
@@ -14641,7 +15276,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1636",
@@ -14655,7 +15291,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1637",
@@ -14669,7 +15306,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1638",
@@ -14683,7 +15321,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1639",
@@ -14697,7 +15336,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1640",
@@ -14711,7 +15351,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1641",
@@ -14725,7 +15366,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1642",
@@ -14739,7 +15381,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1643",
@@ -14753,7 +15396,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1644",
@@ -14767,7 +15411,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1645",
@@ -14781,7 +15426,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1646",
@@ -14795,7 +15441,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1647",
@@ -14809,7 +15456,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1648",
@@ -14823,7 +15471,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1649",
@@ -14837,7 +15486,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1650",
@@ -14851,7 +15501,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1651",
@@ -14865,7 +15516,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1652",
@@ -14879,7 +15531,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1653",
@@ -14893,7 +15546,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1654",
@@ -14907,7 +15561,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1655",
@@ -14921,7 +15576,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1656",
@@ -14935,7 +15591,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1657",
@@ -14949,7 +15606,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1658",
@@ -14963,7 +15621,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1659",
@@ -14977,7 +15636,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1660",
@@ -14991,7 +15651,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1661",
@@ -15005,7 +15666,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1662",
@@ -15019,7 +15681,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1663",
@@ -15033,7 +15696,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1664",
@@ -15047,7 +15711,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1665",
@@ -15061,7 +15726,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1666",
@@ -15075,7 +15741,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1667",
@@ -15089,7 +15756,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1668",
@@ -15103,7 +15771,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1669",
@@ -15117,7 +15786,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1670",
@@ -15131,7 +15801,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1671",
@@ -15145,7 +15816,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1672",
@@ -15159,7 +15831,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1673",
@@ -15173,7 +15846,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1674",
@@ -15187,7 +15861,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1675",
@@ -15201,7 +15876,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1676",
@@ -15215,7 +15891,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1677",
@@ -15229,7 +15906,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1678",
@@ -15243,7 +15921,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1679",
@@ -15257,7 +15936,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1680",
@@ -15271,7 +15951,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1681",
@@ -15285,7 +15966,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1682",
@@ -15299,7 +15981,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1683",
@@ -15313,7 +15996,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1684",
@@ -15327,7 +16011,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1685",
@@ -15341,7 +16026,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1686",
@@ -15355,7 +16041,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1687",
@@ -15369,7 +16056,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1688",
@@ -15383,7 +16071,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1689",
@@ -15397,7 +16086,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1690",
@@ -15411,7 +16101,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1691",
@@ -15425,7 +16116,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1692",
@@ -15439,7 +16131,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1693",
@@ -15453,7 +16146,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1694",
@@ -15467,7 +16161,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1695",
@@ -15481,7 +16176,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1696",
@@ -15495,7 +16191,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1697",
@@ -15509,7 +16206,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1698",
@@ -15523,7 +16221,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1699",
@@ -15537,7 +16236,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1700",
@@ -15551,7 +16251,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1701",
@@ -15565,7 +16266,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1702",
@@ -15579,7 +16281,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1703",
@@ -15593,7 +16296,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1704",
@@ -15607,7 +16311,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1705",
@@ -15621,7 +16326,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1706",
@@ -15635,7 +16341,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1707",
@@ -15649,7 +16356,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1708",
@@ -15663,7 +16371,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1709",
@@ -15677,7 +16386,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1710",
@@ -15691,7 +16401,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1711",
@@ -15705,7 +16416,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1712",
@@ -15719,7 +16431,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1713",
@@ -15733,7 +16446,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1714",
@@ -15747,7 +16461,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1715",
@@ -15761,7 +16476,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1716",
@@ -15775,7 +16491,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1717",
@@ -15789,7 +16506,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1718",
@@ -15803,7 +16521,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1719",
@@ -15817,7 +16536,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1720",
@@ -15831,7 +16551,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1721",
@@ -15845,7 +16566,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1722",
@@ -15859,7 +16581,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1723",
@@ -15873,7 +16596,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1724",
@@ -15887,7 +16611,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1725",
@@ -15901,7 +16626,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1726",
@@ -15915,7 +16641,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1727",
@@ -15929,7 +16656,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1728",
@@ -15943,7 +16671,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1729",
@@ -15957,7 +16686,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1730",
@@ -15971,7 +16701,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1731",
@@ -15985,7 +16716,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1732",
@@ -15999,7 +16731,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1733",
@@ -16013,7 +16746,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1734",
@@ -16027,7 +16761,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1735",
@@ -16041,7 +16776,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1736",
@@ -16055,7 +16791,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1737",
@@ -16069,7 +16806,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1738",
@@ -16083,7 +16821,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1739",
@@ -16097,7 +16836,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1740",
@@ -16111,7 +16851,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1741",
@@ -16125,7 +16866,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1742",
@@ -16139,7 +16881,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1743",
@@ -16153,7 +16896,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1744",
@@ -16167,7 +16911,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1745",
@@ -16181,7 +16926,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1746",
@@ -16195,7 +16941,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1747",
@@ -16209,7 +16956,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1748",
@@ -16223,7 +16971,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1749",
@@ -16237,7 +16986,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1750",
@@ -16251,7 +17001,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1751",
@@ -16265,7 +17016,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1752",
@@ -16279,7 +17031,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1753",
@@ -16293,7 +17046,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1754",
@@ -16307,7 +17061,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1755",
@@ -16321,7 +17076,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1756",
@@ -16335,7 +17091,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1757",
@@ -16349,7 +17106,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1758",
@@ -16363,7 +17121,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1759",
@@ -16377,7 +17136,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1760",
@@ -16391,7 +17151,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1761",
@@ -16405,7 +17166,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1762",
@@ -16419,7 +17181,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1763",
@@ -16433,7 +17196,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1764",
@@ -16447,7 +17211,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1765",
@@ -16461,7 +17226,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1766",
@@ -16475,7 +17241,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1767",
@@ -16489,7 +17256,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1768",
@@ -16503,7 +17271,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1769",
@@ -16517,7 +17286,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1770",
@@ -16531,7 +17301,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1771",
@@ -16545,7 +17316,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1772",
@@ -16559,7 +17331,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1773",
@@ -16573,7 +17346,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1774",
@@ -16587,7 +17361,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1775",
@@ -16601,7 +17376,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1776",
@@ -16615,7 +17391,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1777",
@@ -16629,7 +17406,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1778",
@@ -16643,7 +17421,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1779",
@@ -16657,7 +17436,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1780",
@@ -16671,7 +17451,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1781",
@@ -16685,7 +17466,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1782",
@@ -16699,7 +17481,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1783",
@@ -16713,7 +17496,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1784",
@@ -16727,7 +17511,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1785",
@@ -16741,7 +17526,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1786",
@@ -16755,7 +17541,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1787",
@@ -16769,7 +17556,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1788",
@@ -16783,7 +17571,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1789",
@@ -16797,7 +17586,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1790",
@@ -16811,7 +17601,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1791",
@@ -16825,7 +17616,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1792",
@@ -16839,7 +17631,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1793",
@@ -16853,7 +17646,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1794",
@@ -16867,7 +17661,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1795",
@@ -16881,7 +17676,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1796",
@@ -16895,7 +17691,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1797",
@@ -16909,7 +17706,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1798",
@@ -16923,7 +17721,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1799",
@@ -16937,7 +17736,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1800",
@@ -16951,7 +17751,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1801",
@@ -16965,7 +17766,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1802",
@@ -16979,7 +17781,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1803",
@@ -16993,7 +17796,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1804",
@@ -17007,7 +17811,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1805",
@@ -17021,7 +17826,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1806",
@@ -17035,7 +17841,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1807",
@@ -17049,7 +17856,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1808",
@@ -17063,7 +17871,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1809",
@@ -17077,7 +17886,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1810",
@@ -17091,7 +17901,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1811",
@@ -17105,7 +17916,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1812",
@@ -17119,7 +17931,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1813",
@@ -17133,7 +17946,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1814",
@@ -17147,7 +17961,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1815",
@@ -17161,7 +17976,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1816",
@@ -17175,7 +17991,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1817",
@@ -17189,7 +18006,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1818",
@@ -17203,7 +18021,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1819",
@@ -17217,7 +18036,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1820",
@@ -17231,7 +18051,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1821",
@@ -17245,7 +18066,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1822",
@@ -17259,7 +18081,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1823",
@@ -17273,7 +18096,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1824",
@@ -17287,7 +18111,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1825",
@@ -17301,7 +18126,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1826",
@@ -17315,7 +18141,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1827",
@@ -17329,7 +18156,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1828",
@@ -17343,7 +18171,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1829",
@@ -17357,7 +18186,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1830",
@@ -17371,7 +18201,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1831",
@@ -17385,7 +18216,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1832",
@@ -17399,7 +18231,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1833",
@@ -17413,7 +18246,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1834",
@@ -17427,7 +18261,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1835",
@@ -17441,7 +18276,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1836",
@@ -17455,7 +18291,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1837",
@@ -17469,7 +18306,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1838",
@@ -17483,7 +18321,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1839",
@@ -17497,7 +18336,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1840",
@@ -17511,7 +18351,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1841",
@@ -17525,7 +18366,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1842",
@@ -17539,7 +18381,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1843",
@@ -17553,7 +18396,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1844",
@@ -17567,7 +18411,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1845",
@@ -17581,7 +18426,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1846",
@@ -17595,7 +18441,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1847",
@@ -17609,7 +18456,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1848",
@@ -17623,7 +18471,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1849",
@@ -17637,7 +18486,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1850",
@@ -17651,7 +18501,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1851",
@@ -17665,7 +18516,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1852",
@@ -17679,7 +18531,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1853",
@@ -17693,7 +18546,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1854",
@@ -17707,7 +18561,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1855",
@@ -17721,7 +18576,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1856",
@@ -17735,7 +18591,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1857",
@@ -17749,7 +18606,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1858",
@@ -17763,7 +18621,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1859",
@@ -17777,7 +18636,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1860",
@@ -17791,7 +18651,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1861",
@@ -17805,7 +18666,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1862",
@@ -17819,7 +18681,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1863",
@@ -17833,7 +18696,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1864",
@@ -17847,7 +18711,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1865",
@@ -17861,7 +18726,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1866",
@@ -17875,7 +18741,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1867",
@@ -17889,7 +18756,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1868",
@@ -17903,7 +18771,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1869",
@@ -17917,7 +18786,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1870",
@@ -17931,7 +18801,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1871",
@@ -17945,7 +18816,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1872",
@@ -17959,7 +18831,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1873",
@@ -17973,7 +18846,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1874",
@@ -17987,7 +18861,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1875",
@@ -18001,7 +18876,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1876",
@@ -18015,7 +18891,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1877",
@@ -18029,7 +18906,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1878",
@@ -18043,7 +18921,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1879",
@@ -18057,7 +18936,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1880",
@@ -18071,7 +18951,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1881",
@@ -18085,7 +18966,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1882",
@@ -18099,7 +18981,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1883",
@@ -18113,7 +18996,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1884",
@@ -18127,7 +19011,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1885",
@@ -18141,7 +19026,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1886",
@@ -18155,7 +19041,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1887",
@@ -18169,7 +19056,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1888",
@@ -18183,7 +19071,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1889",
@@ -18197,7 +19086,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1890",
@@ -18211,7 +19101,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1891",
@@ -18225,7 +19116,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1892",
@@ -18239,7 +19131,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1893",
@@ -18253,7 +19146,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1894",
@@ -18267,7 +19161,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1895",
@@ -18281,7 +19176,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1896",
@@ -18295,7 +19191,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1897",
@@ -18309,7 +19206,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1898",
@@ -18323,7 +19221,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1899",
@@ -18337,7 +19236,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1900",
@@ -18351,7 +19251,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1901",
@@ -18365,7 +19266,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1902",
@@ -18379,7 +19281,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1903",
@@ -18393,7 +19296,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1904",
@@ -18407,7 +19311,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1905",
@@ -18421,7 +19326,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1906",
@@ -18435,7 +19341,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1907",
@@ -18449,7 +19356,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1908",
@@ -18463,7 +19371,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1909",
@@ -18477,7 +19386,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1910",
@@ -18491,7 +19401,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1911",
@@ -18505,7 +19416,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1912",
@@ -18519,7 +19431,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1913",
@@ -18533,7 +19446,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1914",
@@ -18547,7 +19461,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1915",
@@ -18561,7 +19476,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1916",
@@ -18575,7 +19491,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1917",
@@ -18589,7 +19506,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1918",
@@ -18603,7 +19521,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1919",
@@ -18617,7 +19536,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1920",
@@ -18631,7 +19551,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1921",
@@ -18645,7 +19566,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1922",
@@ -18659,7 +19581,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1923",
@@ -18673,7 +19596,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1924",
@@ -18687,7 +19611,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1925",
@@ -18701,7 +19626,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1926",
@@ -18715,7 +19641,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1927",
@@ -18729,7 +19656,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1928",
@@ -18743,7 +19671,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1929",
@@ -18757,7 +19686,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1930",
@@ -18771,7 +19701,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1931",
@@ -18785,7 +19716,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1932",
@@ -18799,7 +19731,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1933",
@@ -18813,7 +19746,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1934",
@@ -18827,7 +19761,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1935",
@@ -18841,7 +19776,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1936",
@@ -18855,7 +19791,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1937",
@@ -18869,7 +19806,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1938",
@@ -18883,7 +19821,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1939",
@@ -18897,7 +19836,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1940",
@@ -18911,7 +19851,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1941",
@@ -18925,7 +19866,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1942",
@@ -18939,7 +19881,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1943",
@@ -18953,7 +19896,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1944",
@@ -18967,7 +19911,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1945",
@@ -18981,7 +19926,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1946",
@@ -18995,7 +19941,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1947",
@@ -19009,7 +19956,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1948",
@@ -19023,7 +19971,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1949",
@@ -19037,7 +19986,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1950",
@@ -19051,7 +20001,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1951",
@@ -19065,7 +20016,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1952",
@@ -19079,7 +20031,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1953",
@@ -19093,7 +20046,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1954",
@@ -19107,7 +20061,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1955",
@@ -19121,7 +20076,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1956",
@@ -19135,7 +20091,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1957",
@@ -19149,7 +20106,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1958",
@@ -19163,7 +20121,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1959",
@@ -19177,7 +20136,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1960",
@@ -19191,7 +20151,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1961",
@@ -19205,7 +20166,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1962",
@@ -19219,7 +20181,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1963",
@@ -19233,7 +20196,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1964",
@@ -19247,7 +20211,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1965",
@@ -19261,7 +20226,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1966",
@@ -19275,7 +20241,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1967",
@@ -19289,7 +20256,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1968",
@@ -19303,7 +20271,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1969",
@@ -19317,7 +20286,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1970",
@@ -19331,7 +20301,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1971",
@@ -19345,7 +20316,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1972",
@@ -19359,7 +20331,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1973",
@@ -19373,7 +20346,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1974",
@@ -19387,7 +20361,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1975",
@@ -19401,7 +20376,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1976",
@@ -19415,7 +20391,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1977",
@@ -19429,7 +20406,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1978",
@@ -19443,7 +20421,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1979",
@@ -19457,7 +20436,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1980",
@@ -19471,7 +20451,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1981",
@@ -19485,7 +20466,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1982",
@@ -19499,7 +20481,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1983",
@@ -19513,7 +20496,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1984",
@@ -19527,7 +20511,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1985",
@@ -19541,7 +20526,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1986",
@@ -19555,7 +20541,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1987",
@@ -19569,7 +20556,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1988",
@@ -19583,7 +20571,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1989",
@@ -19597,7 +20586,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1990",
@@ -19611,7 +20601,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1991",
@@ -19625,7 +20616,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1992",
@@ -19639,7 +20631,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-1993",
@@ -19653,7 +20646,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1994",
@@ -19667,7 +20661,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1995",
@@ -19681,7 +20676,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1996",
@@ -19695,7 +20691,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1997",
@@ -19709,7 +20706,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1998",
@@ -19723,7 +20721,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-1999",
@@ -19737,7 +20736,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2000",
@@ -19751,7 +20751,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2001",
@@ -19765,7 +20766,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2002",
@@ -19779,7 +20781,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2003",
@@ -19793,7 +20796,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2004",
@@ -19807,7 +20811,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2005",
@@ -19821,7 +20826,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2006",
@@ -19835,7 +20841,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2007",
@@ -19849,7 +20856,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2008",
@@ -19863,7 +20871,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2009",
@@ -19877,7 +20886,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2010",
@@ -19891,7 +20901,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2011",
@@ -19905,7 +20916,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2012",
@@ -19919,7 +20931,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2013",
@@ -19933,7 +20946,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2014",
@@ -19947,7 +20961,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2015",
@@ -19961,7 +20976,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2016",
@@ -19975,7 +20991,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2017",
@@ -19989,7 +21006,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2018",
@@ -20003,7 +21021,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2019",
@@ -20017,7 +21036,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2020",
@@ -20031,7 +21051,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2021",
@@ -20045,7 +21066,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2022",
@@ -20059,7 +21081,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2023",
@@ -20073,7 +21096,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2024",
@@ -20087,7 +21111,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2025",
@@ -20101,7 +21126,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2026",
@@ -20115,7 +21141,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2027",
@@ -20129,7 +21156,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2028",
@@ -20143,7 +21171,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2029",
@@ -20157,7 +21186,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2030",
@@ -20171,7 +21201,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2031",
@@ -20185,7 +21216,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2032",
@@ -20199,7 +21231,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2033",
@@ -20213,7 +21246,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2034",
@@ -20227,7 +21261,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2035",
@@ -20241,7 +21276,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2036",
@@ -20255,7 +21291,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2037",
@@ -20269,7 +21306,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2038",
@@ -20283,7 +21321,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2039",
@@ -20297,7 +21336,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2040",
@@ -20311,7 +21351,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2041",
@@ -20325,7 +21366,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2042",
@@ -20339,7 +21381,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2043",
@@ -20353,7 +21396,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2044",
@@ -20367,7 +21411,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2045",
@@ -20381,7 +21426,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2046",
@@ -20395,7 +21441,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2047",
@@ -20409,7 +21456,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2048",
@@ -20423,7 +21471,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2049",
@@ -20437,7 +21486,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2050",
@@ -20451,7 +21501,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2051",
@@ -20465,7 +21516,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2052",
@@ -20479,7 +21531,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2053",
@@ -20493,7 +21546,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2054",
@@ -20507,7 +21561,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2055",
@@ -20521,7 +21576,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2056",
@@ -20535,7 +21591,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2057",
@@ -20549,7 +21606,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2058",
@@ -20563,7 +21621,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2059",
@@ -20577,7 +21636,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2060",
@@ -20591,7 +21651,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2061",
@@ -20605,7 +21666,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2062",
@@ -20619,7 +21681,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2063",
@@ -20633,7 +21696,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2064",
@@ -20647,7 +21711,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2065",
@@ -20661,7 +21726,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2066",
@@ -20675,7 +21741,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2067",
@@ -20689,7 +21756,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2068",
@@ -20703,7 +21771,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2069",
@@ -20717,7 +21786,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2070",
@@ -20731,7 +21801,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2071",
@@ -20745,7 +21816,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2072",
@@ -20759,7 +21831,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2073",
@@ -20773,7 +21846,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2074",
@@ -20787,7 +21861,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2075",
@@ -20801,7 +21876,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2076",
@@ -20815,7 +21891,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2077",
@@ -20829,7 +21906,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2078",
@@ -20843,7 +21921,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2079",
@@ -20857,7 +21936,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2080",
@@ -20871,7 +21951,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2081",
@@ -20885,7 +21966,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2082",
@@ -20899,7 +21981,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2083",
@@ -20913,7 +21996,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2084",
@@ -20927,7 +22011,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2085",
@@ -20941,7 +22026,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2086",
@@ -20955,7 +22041,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2087",
@@ -20969,7 +22056,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2088",
@@ -20983,7 +22071,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2089",
@@ -20997,7 +22086,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2090",
@@ -21011,7 +22101,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2091",
@@ -21025,7 +22116,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2092",
@@ -21039,7 +22131,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2093",
@@ -21053,7 +22146,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2094",
@@ -21067,7 +22161,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2095",
@@ -21081,7 +22176,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2096",
@@ -21095,7 +22191,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2097",
@@ -21109,7 +22206,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2098",
@@ -21123,7 +22221,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2099",
@@ -21137,7 +22236,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2100",
@@ -21151,7 +22251,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2101",
@@ -21165,7 +22266,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2102",
@@ -21179,7 +22281,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2103",
@@ -21193,7 +22296,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2104",
@@ -21207,7 +22311,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2105",
@@ -21221,7 +22326,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2106",
@@ -21235,7 +22341,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2107",
@@ -21249,7 +22356,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2108",
@@ -21263,7 +22371,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2109",
@@ -21277,7 +22386,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2110",
@@ -21291,7 +22401,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2111",
@@ -21305,7 +22416,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2112",
@@ -21319,7 +22431,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2113",
@@ -21333,7 +22446,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2114",
@@ -21347,7 +22461,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2115",
@@ -21361,7 +22476,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2116",
@@ -21375,7 +22491,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2117",
@@ -21389,7 +22506,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2118",
@@ -21403,7 +22521,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2119",
@@ -21417,7 +22536,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2120",
@@ -21431,7 +22551,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2121",
@@ -21445,7 +22566,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2122",
@@ -21459,7 +22581,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2123",
@@ -21473,7 +22596,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2124",
@@ -21487,7 +22611,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2125",
@@ -21501,7 +22626,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2126",
@@ -21515,7 +22641,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2127",
@@ -21529,7 +22656,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2128",
@@ -21543,7 +22671,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2129",
@@ -21557,7 +22686,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2130",
@@ -21571,7 +22701,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2131",
@@ -21585,7 +22716,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2132",
@@ -21599,7 +22731,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2133",
@@ -21613,7 +22746,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2134",
@@ -21627,7 +22761,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2135",
@@ -21641,7 +22776,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2136",
@@ -21655,7 +22791,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2137",
@@ -21669,7 +22806,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2138",
@@ -21683,7 +22821,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2139",
@@ -21697,7 +22836,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2140",
@@ -21711,7 +22851,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2141",
@@ -21725,7 +22866,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2142",
@@ -21739,7 +22881,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2143",
@@ -21753,7 +22896,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2144",
@@ -21767,7 +22911,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2145",
@@ -21781,7 +22926,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2146",
@@ -21795,7 +22941,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2147",
@@ -21809,7 +22956,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2148",
@@ -21823,7 +22971,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2149",
@@ -21837,7 +22986,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2150",
@@ -21851,7 +23001,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2151",
@@ -21865,7 +23016,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2152",
@@ -21879,7 +23031,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2153",
@@ -21893,7 +23046,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2154",
@@ -21907,7 +23061,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2155",
@@ -21921,7 +23076,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2156",
@@ -21935,7 +23091,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2157",
@@ -21949,7 +23106,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2158",
@@ -21963,7 +23121,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2159",
@@ -21977,7 +23136,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2160",
@@ -21991,7 +23151,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2161",
@@ -22005,7 +23166,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2162",
@@ -22019,7 +23181,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2163",
@@ -22033,7 +23196,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2164",
@@ -22047,7 +23211,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2165",
@@ -22061,7 +23226,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2166",
@@ -22075,7 +23241,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2167",
@@ -22089,7 +23256,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2168",
@@ -22103,7 +23271,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2169",
@@ -22117,7 +23286,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2170",
@@ -22131,7 +23301,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2171",
@@ -22145,7 +23316,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2172",
@@ -22159,7 +23331,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2173",
@@ -22173,7 +23346,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2174",
@@ -22187,7 +23361,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2175",
@@ -22201,7 +23376,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2176",
@@ -22215,7 +23391,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2177",
@@ -22229,7 +23406,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2178",
@@ -22243,7 +23421,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2179",
@@ -22257,7 +23436,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2180",
@@ -22271,7 +23451,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2181",
@@ -22285,7 +23466,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2182",
@@ -22299,7 +23481,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2183",
@@ -22313,7 +23496,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2184",
@@ -22327,7 +23511,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2185",
@@ -22341,7 +23526,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2186",
@@ -22355,7 +23541,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2187",
@@ -22369,7 +23556,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2188",
@@ -22383,7 +23571,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2189",
@@ -22397,7 +23586,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2190",
@@ -22411,7 +23601,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2191",
@@ -22425,7 +23616,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2192",
@@ -22439,7 +23631,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2193",
@@ -22453,7 +23646,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2194",
@@ -22467,7 +23661,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2195",
@@ -22481,7 +23676,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2196",
@@ -22495,7 +23691,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2197",
@@ -22509,7 +23706,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2198",
@@ -22523,7 +23721,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2199",
@@ -22537,7 +23736,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2200",
@@ -22551,7 +23751,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2201",
@@ -22565,7 +23766,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2202",
@@ -22579,7 +23781,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2203",
@@ -22593,7 +23796,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2204",
@@ -22607,7 +23811,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2205",
@@ -22621,7 +23826,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2206",
@@ -22635,7 +23841,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2207",
@@ -22649,7 +23856,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2208",
@@ -22663,7 +23871,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2209",
@@ -22677,7 +23886,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2210",
@@ -22691,7 +23901,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2211",
@@ -22705,7 +23916,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2212",
@@ -22719,7 +23931,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2213",
@@ -22733,7 +23946,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2214",
@@ -22747,7 +23961,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2215",
@@ -22761,7 +23976,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2216",
@@ -22775,7 +23991,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2217",
@@ -22789,7 +24006,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2218",
@@ -22803,7 +24021,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2219",
@@ -22817,7 +24036,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2220",
@@ -22831,7 +24051,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2221",
@@ -22845,7 +24066,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2222",
@@ -22859,7 +24081,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2223",
@@ -22873,7 +24096,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2224",
@@ -22887,7 +24111,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2225",
@@ -22901,7 +24126,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2226",
@@ -22915,7 +24141,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2227",
@@ -22929,7 +24156,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2228",
@@ -22943,7 +24171,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2229",
@@ -22957,7 +24186,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2230",
@@ -22971,7 +24201,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2231",
@@ -22985,7 +24216,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2232",
@@ -22999,7 +24231,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2233",
@@ -23013,7 +24246,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-20",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2234",
@@ -23027,7 +24261,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2235",
@@ -23041,7 +24276,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-20",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2236",
@@ -23055,7 +24291,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2237",
@@ -23069,7 +24306,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2238",
@@ -23083,7 +24321,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2239",
@@ -23097,7 +24336,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-18",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2240",
@@ -23111,7 +24351,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-18",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2241",
@@ -23125,7 +24366,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2242",
@@ -23139,7 +24381,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2243",
@@ -23153,7 +24396,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Pending",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 5
     },
     {
       "driverId": "DRV-2244",
@@ -23167,7 +24411,8 @@ const APP_DATA = {
       "driverLevel": "Level 3",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2245",
@@ -23181,7 +24426,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2246",
@@ -23195,7 +24441,8 @@ const APP_DATA = {
       "driverLevel": "Level 1",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2247",
@@ -23209,7 +24456,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-19",
       "status": "Overdue",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2248",
@@ -23223,7 +24471,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-18",
       "status": "Freezed",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     },
     {
       "driverId": "DRV-2249",
@@ -23237,7 +24486,8 @@ const APP_DATA = {
       "driverLevel": "Level 2",
       "dueDate": "2026-07-20",
       "status": "Due Today",
-      "lastCollected": "02:30 PM"
+      "lastCollected": "02:30 PM",
+      "ordersDelivered": 4
     }
   ],
   "compliance": [

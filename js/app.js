@@ -31,7 +31,10 @@ const state = {
   cityFilter: '',
   carrierFilter: '',
   healthFilter: '',
-  analyticsGrouping: 'city'
+  analyticsGrouping: 'city',
+  incGrouping: 'city',
+  incPage: 1,
+  incPageSize: 10
 };
 
 /* =============================================
@@ -55,10 +58,16 @@ const TABS = [
     label: 'COD Tracker',
     sections: ['codAnalyticsSection', 'codSection', 'driverCodSection'],
     icon: `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="8" r="6"/><path d="M6 6h4M6 8.5h2.5M8.5 8.5v3" stroke-linecap="round"/></svg>`,
+  },
+  {
+    id: 'driver-incentives',
+    label: 'Driver Incentives',
+    sections: ['incentiveAnalyticsSection', 'incentiveTableSection'],
+    icon: `<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 2l2 4 4 1-3 3 1 4-4-2-4 2 1-4-3-3 4-1z" stroke-linejoin="round" stroke-linecap="round"/></svg>`
   }
 ];
 
-const ALL_SECTIONS = ['healthSection','orderStatesSection','citySection','slaSection','codSection','codAnalyticsSection','driverCodSection','driverComplianceSection'];
+const ALL_SECTIONS = ['healthSection','orderStatesSection','citySection','slaSection','codSection','codAnalyticsSection','driverCodSection','driverComplianceSection','incentiveAnalyticsSection','incentiveTableSection'];
 
 /* =============================================
    INIT
@@ -75,6 +84,8 @@ document.addEventListener('DOMContentLoaded', () => {
   renderSLATable();
   renderCODAnalytics();
   renderCODTable();
+  renderIncentiveKPIs();
+  renderIncentiveTable();
   renderDriverCODTable();
   renderDriverComplianceTable();
   updateLastRefreshed();
@@ -878,4 +889,161 @@ function renderCODAnalytics() {
       }
     }
   });
+}
+
+
+/* =============================================
+   DRIVER INCENTIVES
+   ============================================= */
+let incChartInstance = null;
+
+function setIncGrouping(grouping) {
+  state.incGrouping = grouping;
+  document.getElementById('btnIncGroupCity').classList.toggle('active', grouping === 'city');
+  document.getElementById('btnIncGroupLevel').classList.toggle('active', grouping === 'driverLevel');
+  renderIncentiveKPIs();
+}
+
+function setIncPage(p) { state.incPage = p; renderIncentiveTable(); }
+
+function getFilteredDriversForIncentives() {
+  let fDrivers = APP_DATA.driverCOD;
+  if (state.cityFilter || state.carrierFilter) {
+    let fStores = APP_DATA.stores;
+    if (state.cityFilter) fStores = fStores.filter(s => s.city === state.cityFilter);
+    if (state.carrierFilter) fStores = fStores.filter(s => s.carrier === state.carrierFilter);
+    const validStoreIds = new Set(fStores.map(s => s.store));
+    fDrivers = fDrivers.filter(d => validStoreIds.has(d.store));
+  }
+  return fDrivers;
+}
+
+function renderIncentiveKPIs() {
+  const data = getFilteredDriversForIncentives();
+  
+  let totalInc = 0, totalCleared = 0, totalHold = 0;
+  
+  const groups = {};
+
+  data.forEach(d => {
+    // Math: Max(5% of Collected Amount, 50 per order)
+    const incAmount = Math.max((d.amountCollected || 0) * 0.05, (d.ordersDelivered || 0) * 50);
+    
+    // Status Logic: if Freezed, all is on hold. Else proportional to cash submitted vs collected.
+    let cleared = 0;
+    if (d.status === 'Freezed') {
+      cleared = 0;
+    } else {
+      const submittedRatio = d.amountCollected ? (d.amountSubmitted / d.amountCollected) : 0;
+      cleared = incAmount * submittedRatio;
+    }
+    const hold = incAmount - cleared;
+
+    totalInc += incAmount;
+    totalCleared += cleared;
+    totalHold += hold;
+
+    // Grouping for chart
+    const key = d[state.incGrouping] || 'Unknown';
+    if (!groups[key]) groups[key] = { cleared: 0, hold: 0, orders: 0 };
+    groups[key].cleared += cleared;
+    groups[key].hold += hold;
+    groups[key].orders += (d.ordersDelivered || 0);
+  });
+
+  const avg = data.length ? (totalInc / data.length) : 0;
+
+  const elTotal = document.getElementById('kpiIncTotal');
+  if (elTotal) {
+    elTotal.textContent = '₹' + Math.round(totalInc).toLocaleString('en-IN');
+    document.getElementById('kpiIncCleared').textContent = '₹' + Math.round(totalCleared).toLocaleString('en-IN');
+    document.getElementById('kpiIncHold').textContent = '₹' + Math.round(totalHold).toLocaleString('en-IN');
+    document.getElementById('kpiIncAvg').textContent = '₹' + Math.round(avg).toLocaleString('en-IN');
+  }
+
+  renderIncentiveChart(groups);
+}
+
+function renderIncentiveChart(groups) {
+  const ctx = document.getElementById('incentiveChart');
+  if (!ctx) return;
+
+  const labels = Object.keys(groups);
+  const dataCleared = labels.map(l => Math.round(groups[l].cleared));
+  const dataHold = labels.map(l => Math.round(groups[l].hold));
+  const dataOrders = labels.map(l => groups[l].orders);
+
+  if (incChartInstance) {
+    incChartInstance.destroy();
+  }
+
+  incChartInstance = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [
+        { 
+          label: 'Orders Delivered', 
+          type: 'line', 
+          data: dataOrders, 
+          borderColor: '#1E88E5', 
+          backgroundColor: '#1E88E5', 
+          yAxisID: 'y1',
+          tension: 0.3
+        },
+        { label: 'Cleared', data: dataCleared, backgroundColor: '#0BA068', stack: 'Stack 0' },
+        { label: 'On Hold', data: dataHold, backgroundColor: '#D14343', stack: 'Stack 0' }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'top', labels: { font: { family: 'Inter' } } }
+      },
+      scales: {
+        y: { stacked: true, position: 'left', grid: { color: '#f3f4f6' }, ticks: { font: { family: 'Inter' } } },
+        y1: { position: 'right', grid: { display: false }, ticks: { font: { family: 'Inter' } } },
+        x: { stacked: true, grid: { display: false }, ticks: { font: { family: 'Inter' } } }
+      }
+    }
+  });
+}
+
+function renderIncentiveTable() {
+  const tbody = document.getElementById('incentiveTableBody');
+  if (!tbody) return;
+
+  const data = getFilteredDriversForIncentives();
+  const total = data.length;
+  const start = (state.incPage - 1) * state.incPageSize;
+  const page = data.slice(start, start + state.incPageSize);
+
+  tbody.innerHTML = page.map(r => {
+    const incAmount = Math.max((r.amountCollected || 0) * 0.05, (r.ordersDelivered || 0) * 50);
+    let cleared = 0;
+    if (r.status !== 'Freezed') {
+      const submittedRatio = r.amountCollected ? (r.amountSubmitted / r.amountCollected) : 0;
+      cleared = incAmount * submittedRatio;
+    }
+    const hold = incAmount - cleared;
+    const badge = hold > 100 ? 'badge-danger' : 'badge-success';
+    const statusTxt = hold > 100 ? 'On Hold' : 'Cleared';
+
+    return `
+      <tr>
+        <td><span class="table-link">${r.driverId}</span></td>
+        <td>${r.store}</td>
+        <td>${r.city}</td>
+        <td>${r.ordersDelivered || 0}</td>
+        <td class="fw-600">₹${(r.amountCollected || 0).toLocaleString('en-IN')}</td>
+        <td class="fw-700">₹${Math.round(incAmount).toLocaleString('en-IN')}</td>
+        <td class="txt-success fw-600">₹${Math.round(cleared).toLocaleString('en-IN')}</td>
+        <td class="txt-danger fw-600">₹${Math.round(hold).toLocaleString('en-IN')}</td>
+        <td><span class="badge ${badge}">${statusTxt}</span></td>
+      </tr>
+    `;
+  }).join('');
+
+  renderPaginationHTML('incentivePagination', total, state.incPage, state.incPageSize, 'setIncPage');
 }

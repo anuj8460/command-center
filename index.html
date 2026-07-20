@@ -478,12 +478,72 @@
         <select class="page-size-select" id="driverCodPageSize" onchange="setDriverCodPageSize(this.value)"><option>10</option><option>25</option></select>
         <span>/ Page</span>
       </div>
-      <div class="pagination" id="driverCodPagination">
-        <button class="page-btn active">1</button>
+      <div class="pagination" id="driverCodPagination"></div>
+  </div>
+</div>
+
+<!-- ======================================================
+     TAB 4: DRIVER INCENTIVES
+     ====================================================== -->
+<div id="driver-incentives" class="tab-content" style="display:none;">
+  <div class="section-card" id="incentiveAnalyticsSection">
+    <div class="section-header" style="justify-content: space-between;">
+      <span class="section-title">Incentive Analytics</span>
+      <div class="chart-toggle-group">
+        <button class="chart-toggle-btn active" id="btnIncGroupCity" onclick="setIncGrouping('city')">By City</button>
+        <button class="chart-toggle-btn" id="btnIncGroupLevel" onclick="setIncGrouping('driverLevel')">By Driver Level</button>
       </div>
-      <button class="btn-table-action" onclick="refreshData()">Refresh</button>
+    </div>
+    
+    <div class="analytics-kpis">
+      <div class="kpi-card-mini">
+        <span class="kpi-card-mini-title">Total Generated</span>
+        <span class="kpi-card-mini-value" id="kpiIncTotal">₹0</span>
+      </div>
+      <div class="kpi-card-mini">
+        <span class="kpi-card-mini-title">Total Cleared</span>
+        <span class="kpi-card-mini-value txt-success" id="kpiIncCleared">₹0</span>
+      </div>
+      <div class="kpi-card-mini">
+        <span class="kpi-card-mini-title">On Hold</span>
+        <span class="kpi-card-mini-value txt-danger" id="kpiIncHold">₹0</span>
+      </div>
+      <div class="kpi-card-mini">
+        <span class="kpi-card-mini-title">Avg per Driver</span>
+        <span class="kpi-card-mini-value" id="kpiIncAvg">₹0</span>
+      </div>
+    </div>
+    
+    <div style="height: 300px; width: 100%; position: relative; margin-top: 20px;">
+      <canvas id="incentiveChart"></canvas>
     </div>
   </div>
+
+  <div class="section-card" id="incentiveTableSection">
+    <div class="section-header">
+      <span class="section-title">Driver Payouts</span>
+    </div>
+    <div class="table-responsive">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Driver ID</th>
+            <th>Store</th>
+            <th>City</th>
+            <th>Orders Delivered</th>
+            <th>Collected (₹)</th>
+            <th>Total Incentive (₹)</th>
+            <th>Cleared (₹)</th>
+            <th>On Hold (₹)</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="incentiveTableBody"></tbody>
+      </table>
+    </div>
+    <div class="pagination" id="incentivePagination"></div>
+  </div>
+</div>
 
 </main>
 
